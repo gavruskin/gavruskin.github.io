@@ -13,6 +13,7 @@
 *.tex~
 *.txt~
 *.bib~
+*.tex.swp
 # these rules might exclude image files for figures etc.
 # *.ps
 # *.pdf
