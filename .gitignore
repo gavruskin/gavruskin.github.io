@@ -15,8 +15,8 @@
 *.bib~
 *.tex.swp
 # these rules might exclude image files for figures etc.
-# *.ps
-# *.pdf
+*.ps
+*.pdf
 # *.eps
 
 ## Bibliography auxiliary files (bibtex/biblatex/biber):
