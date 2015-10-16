@@ -1,0 +1,176 @@
+\documentclass{beamer}
+
+\synctex=1
+
+\mode<presentation>
+{
+  \usetheme{Warsaw}
+  \setbeamercovered{invisible}
+}
+
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]{}
+
+\graphicspath{ {./images/} }
+
+\usepackage[british]{babel}
+\usepackage{times}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{hyperref}
+\usepackage{nccfoots}
+
+\renewcommand\thempfootnote{*}
+
+\renewcommand{\t}{$\mathrm{t}$}
+\newcommand{\BHV}{$\mathrm{BHV}$}
+\newcommand{\NP}{$\mathrm{NP}$}
+\newcommand{\MCMC}{$\mathrm{MCMC}$}
+\newcommand{\SPR}{$\mathrm{SPR}$}
+
+\newtheorem{oobservation}{Trivial observation}
+
+\title[AWC Meeting: {\em Phylogenetic Markov chains}]{Convergence and curvature of phylogenetic Markov chains}
+\author{Alex Gavryushkin}
+\titlegraphic{\includegraphics[height=2cm]{UniAuckland}}
+
+\date{21st October 2015}
+
+\begin{document}
+
+\begin{frame}[plain]
+\titlepage
+\end{frame}
+
+\begin{frame}{Ricci-Ollivier curvature}
+\begin{definition}[Ollivier~{[2009]}]
+Let $({\cal T},d)$ be a metric (tree) space with a random walk
+\vskip-3mm
+\[
+m = (m_T)_{T\in{\cal T}}.
+\]
+Let $T,R \in {\cal T}$ be two distinct points (trees).
+The Ricci-Ollivier curvature of $({\cal T},d,m)$ along $\overrightarrow{TR}$ is
+\vskip-3mm
+\[
+\kappa_m(T,R) = 1 - \frac{W(m_T ,m_R)}{d(T,R)},
+\]
+where $W(\cdot\,,\cdot)$ is the earth mover's distance.
+\end{definition}
+\end{frame}
+
+\begin{frame}{Curvature of Markov chains on graphs}
+
+\begin{theorem}[Ollivier~{[2009]}]
+If $({\cal T}, d)$ is a geodesic space then curvature is a local property.
+\end{theorem}
+
+\begin{definition}
+Let $({\cal T}, d)$ be a graph with a Markov chain $m$.Then the {\em curvature of the Markov chain} $m$ on the graph $\cal T$ is the greatest number $\chi_m$ such that
+\vskip-5mm
+\[
+\chi_m \leq \kappa_m(T,R) \mbox{ for adjacent $T$ and $R$}.
+\]
+\end{definition}
+
+\begin{oobservation}
+Under a distance-one random walk, the following is true for any finite metric $d$ and any pair of points $x,y$:
+\vskip-3mm
+\[
+\dfrac{-2}{d(x,y)} \leq \kappa(x,y) \leq \dfrac{2}{d(x,y)}.
+\]
+\end{oobservation}
+\end{frame}
+
+\begin{frame}{Random walks}
+For now, we consider three simplest random walks on various phylogenetic tree spaces.
+
+\begin{itemize}
+\item Metropolis-Hastings random walk: Choose a tree from the one neighbourhood and accept it with probability $\min(1, \dfrac{|N_1(T_{old})|}{|N_1(T_{new})|})$.
+\item Uniform random walk.
+\item Uniform $p$-lazy random walk, where $p$ is the laziness probability.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{}
+\begin{theorem}[Whidden and Matsen {[2015]}]
+\textup{(1)} The curvature of the uniform random walk on the SPR graph on rooted trees with $n$ leaves is bounded from below by
+\vskip-3mm
+	$$\frac{-n^2 + 2n}{3.5n^2 - 15n + 16} \geq -2/5$$
+
+\textup{(2)} Subtract $1/6$ to get a lower bound on the curvature of the Metropolis-Hastings random walk.
+\end{theorem}
+
+\begin{theorem}[G, Whidden, and Matsen {[2015]}]
+\textup{(1)} The curvature of the $p$-lazy uniform random walk on the SPR graph, the NNI graph, the $\tau$-graph, and the discrete $\tau$-space on rooted trees with $n$ leaves is bounded from below by
+\vskip-3mm
+\[
+-p\,\frac{n-3}{n-2}~\cdot
+\]
+\textup{(2)} Subtract $2/3$ to get a lower bound on the curvature of the Metropolis-Hastings random walk.
+\end{theorem}
+\end{frame}
+
+\begin{frame}{}
+\begin{theorem}[Whidden and Matsen {[2015]}]
+The maximum curvature of the uniform random walk on the SPR graph between two adjacent trees with $n$ leaves is
+\vskip-3mm
+$$\frac{6n-17}{3n^2-13n+14}.$$
+\end{theorem}
+
+\begin{theorem}[G, Whidden, and Matsen {[2015]}]
+The curvature of a uniform random walk on the discrete $\tau$-space satisfies
+\vskip-5mm
+\[
+\kappa_{d\tau}(T,R) \leq
+\dfrac{1}{2(n-2)}.
+\]
+\end{theorem}
+\end{frame}
+
+\begin{frame}{}
+
+\begin{theorem}[G, Whidden, and Matsen {[2015]}]
+Let $\{T_n \mid n \in \mathbb N\}$ and $\{S_n \mid n \in \mathbb N\}$ be two sequences of phylogenetic trees such that $d(T_n,R_n) = 1$ for all $n$.
+Then $$\lim_{n \rightarrow \infty} \kappa_n(T_n,S_n) = 0$$ for the uniform random walk on the SPR
+graph\footnote{For the SPR graph, we have to bound the size of the subtree which is getting moved.},
+the NNI graph, the $\tau$-graph, and the discrete $\tau$-space.
+\end{theorem}
+\end{frame}
+
+\begin{frame}{\href{http://alex.gavruskin.com/pictures/}{\Large{Thank
+you for your attention!}}}
+\thebibliography{9}
+\bibliographystyle{alpha}
+
+\scriptsize
+
+\bibitem{Ollivier}
+Yann Ollivier.
+\newblock Ricci curvature of Markov chains on metric spaces.
+\newblock {\em J.\ Functional Analysis,} 256, 3, 810--864, 2009.
+
+\bibitem{Gavruskin2015}
+Alex Gavryushkin and Alexei Drummond.
+\newblock The space of ultrametric phylogenetic trees.
+\newblock {\em arXiv preprint} \href{http://arxiv.org/abs/1410.3544}{arXiv:1410.3544}, 2014.
+
+\bibitem{chrisErick}
+Chris Whidden and Frederick A.\ Matsen IV.
+\newblock Quantifying MCMC exploration of phylogenetic tree space.
+\newblock {\em Systematic Biology}, doi:10.1093/sysbio/syv006, 2015.
+
+\bibitem{chrisErick2015}
+Chris Whidden and Frederick A.\ Matsen IV.
+\newblock Ricci-Ollivier curvature of two random walks on rooted phylogenetic subtree-prune-regraft graph.
+\newblock To appear in the proceedings of the {\em Thirteenth Workshop on Analytic Algorithmics and Combinatorics,} 2015.
+
+\bibitem{chrisErickG2015}
+Alex Gavryushkin, Chris Whidden, and Frederick A.\ Matsen IV.
+\newblock Random walks over discrete time-trees.
+\newblock To appear on the {\em arXiv,} 2015.
+
+\end{frame}
+\end{document}
