@@ -13,7 +13,6 @@
 *.tex~
 *.txt~
 *.bib~
-*.tex.swp
 # these rules might exclude image files for figures etc.
 *.ps
 *.pdf
@@ -111,3 +110,13 @@ sympy-plots-for-*.tex/
 
 # xindy
 *.xdy
+
+# Matsen group
+.sconsign.dblite
+SConstruct
+
+# @gavruskin
+.DS_Store
+.idea
+__pycache__
+*.pyc
