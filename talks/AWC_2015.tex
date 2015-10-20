@@ -9,7 +9,7 @@
 }
 
 \setbeamertemplate{navigation symbols}{}
-\setbeamertemplate{footline}[frame number]{}
+%\setbeamertemplate{footline}[frame number]{}
 
 \graphicspath{ {./images/} }
 
@@ -54,9 +54,9 @@
 \theoremstyle{example}
 \newtheorem{question}{Question}
 
-\title[AWC Meeting: {\em Phylogenetic Markov chains}]{AWC Anual Meeting:\\
+\title[\url{http://gavruskin.github.io/talks/AWC_2015.pdf}]{AWC Anual Meeting:\\
 Convergence and curvature of phylogenetic Markov chains}
-\author{Alex Gavryushkin\\
+\author[These slides:]{Alex Gavryushkin\\
 (joint work with Chris Whidden and Erick Matsen)}
 \titlegraphic{\includegraphics[height=2cm]{UniAuckland}}
 
@@ -253,6 +253,20 @@ the NNI graph, the $\tau$-graph, and the discrete $\tau$-space.
 
 \begin{frame}{Take-home message}
 \begin{block}{}
+\[
+1.001^{10000} = 21916.68\ldots
+\]
+\[
+\mbox{BUT}
+\]
+\[
+0.999^{10000} = 0.000045\ldots
+\]
+\end{block}
+
+\pause
+
+\begin{block}{}
 \begin{itemize}
 \item The curvature of basic random walks is normally positive.
 \item Although the spaces flatten out when the number of taxa $n$ grows, there always are negatively curved pieces.
@@ -295,10 +309,5 @@ Alex Gavryushkin, Chris Whidden, and Frederick A.\ Matsen IV
 
 \bibitem{GavryushkinGitHub}
 \url{https://github.com/gavruskin/tTauCurvature}
-
-\bibitem{thisSlides}
-\url{http://gavruskin.github.io/talks/AWC_2015.pdf}
-\newblock Up-to-date version of these slides
-
 \end{frame}
 \end{document}
