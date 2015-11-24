@@ -116,7 +116,10 @@ sympy-plots-for-*.tex/
 SConstruct
 
 # @gavruskin
+tmp/
 .DS_Store
 .idea
 __pycache__
 *.pyc
+*.local
+
