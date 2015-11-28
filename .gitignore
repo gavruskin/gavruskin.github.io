@@ -122,4 +122,6 @@ tmp/
 __pycache__
 *.pyc
 *.local
+*.swp
+*.spl
 
