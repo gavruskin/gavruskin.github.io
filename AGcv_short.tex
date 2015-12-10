@@ -3,6 +3,7 @@
 \usepackage{amsmath, amssymb, amsfonts, amscd}
 \usepackage{latexsym}
 \usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+\usepackage{etoolbox}
 
 \topmargin -15mm
 \textwidth 170mm
@@ -12,6 +13,14 @@
 \sloppy
 
 \synctex=1
+
+\newtoggle{full}
+\togglefalse{full}
+%\toggletrue{full}
+
+\newtoggle{dob}
+%\togglefalse{dob}
+\toggletrue{dob}
 
 \begin{document}
 
@@ -28,14 +37,18 @@ Residency Status:     \  \= Department of Computer Science \= \kill
 Address:        \> Computational Evolution Group \\
 		\> Department of Computer Science \\
 		\> The University of Auckland\\
-                \> Private Bag 92019\\
-                \> Auckland 1142, New Zealand\\
-Office:         \> Science Centre 303.367\\
-Phone:          \> +64 9 373 7599 ext.\ 85506\\
-Homepage:     \> \href{http://alex.gavruskin.com}{http://alex.gavruskin.com}   \\
-Email:        \> \href{mailto:a.gavruskin@auckland.ac.nz}{a.gavruskin@auckland.ac.nz} \\
-Residency Status:        \>New Zealand permanent resident\\
-Date of Birth: \>  18\textsuperscript{th} January 1983\\
+		\> Private Bag 92019\\
+		\> Auckland 1142, New Zealand\\
+Office:		\> Science Centre 303.367\\
+Phone:		\> +64 9 373 7599 ext.\ 85506\\
+Homepage:	\> \href{http://alex.gavruskin.com}{http://alex.gavruskin.com}\\
+Email:		\> \href{mailto:a.gavruskin@auckland.ac.nz}{a.gavruskin@auckland.ac.nz}\\
+\iftoggle{full}{
+Residency Status: \>New Zealand permanent resident\\
+}{}
+\iftoggle{dob}{
+Date of Birth:	\>  18\textsuperscript{th} January 1983\\
+}{}
 \end{tabbing}
 
 \centerline{\bf Education}
@@ -45,7 +58,10 @@ Date of Birth: \>  18\textsuperscript{th} January 1983\\
                 \>             \>  Thesis advisor: Professor Sergei S.\ Goncharov\\
 2006       \> M.\,S.\ in Mathematics \>  from Novosibirsk State University (with Honours)\\
 2004       \> B.\,S.\ in Mathematics \>  from Novosibirsk State University (with Honours)\\
+\iftoggle{full}{
 2000       \> Gold Medal High School Diploma, Novokuznetsk%\\
+}{}
+\iftoggle{dob}{}{\\}
 \end{tabbing}
 
 \centerline{\bf Professional Activity}
@@ -53,6 +69,7 @@ Date of Birth: \>  18\textsuperscript{th} January 1983\\
 September \=2009\=--\=November \=2009 \ \= Visitor Research fe \ \= \kill
 February \>2012\>--\> present \> \> Research Fellow \> The University of Auckland (NZ)\\
                 \>        \>   \>             \>          \>                          \> Department of Computer Science\\
+\iftoggle{full}{
 February \>2015\>--\>present\>  \> Affiliate   \> Fred Hutchinson Cancer Research Centre (US)\\
                 \>        \>   \>             \>          \>                          \> Computational Biology Programme \\
 August \>2013\>--\>July\>2014 \> Lecturer \> Auckland University of Technology (NZ)\\
@@ -65,6 +82,10 @@ September \>2009\>--\>November \>2009 \> Research Visitor   \> University of Not
                 \>        \>   \>             \>          \>                          \>Department of Mathematics \\
 April           \> 2009\>--\>August     \>2009              \> Research Assistant     \> Sobolev Institute of Mathematics (RF)\\
 September \>2006\>--\>July            \>2009          \> GTA                          \> Novosibirsk State University (RF)\\
+}{
+September \>2009\>--\>December \>2014 \> Senior Lecturer     \> Irkutsk State University (RF)\\
+                \>        \>   \>             \>          \>                          \>Institute of Mathematics and Computer Science\\
+}
 \end{tabbing}
 
 \centerline{\bf Awards}
@@ -79,7 +100,11 @@ September \>2006\>--\>July            \>2009          \> GTA                    
 2005       \> Maltsev Award (from Novosibirsk State University)\\
 \end{tabbing}
 
+\iftoggle{full}{
 \centerline{\bf Publications}
+}{
+\centerline{\bf Recent publications}
+}
 \begin{itemize}
 \item A.\,Gavryushkin and A.\,Drummond.
 	The space of ultrametric phylogenetic trees.
@@ -125,6 +150,7 @@ September \>2006\>--\>July            \>2009          \> GTA                    
 \item A.\,Gavryushkin.
 	On constructive models of theories with linear Rudin-Keisler ordering.
 	{\em Journal of Logic and Computation,} 22, 4, 793--805, 2012.
+\iftoggle{full}{
 \item A.\,Gavryushkin.
 	Computable models of Ehrenfeucht theories.
 	{\em CRM Documents}, Centre de Recerca Matem\`atica, Bellaterra (Barcelona), Vol.\,11, 67--77, 2012.
@@ -153,8 +179,16 @@ September \>2006\>--\>July            \>2009          \> GTA                    
 	Complexity of Ehrenfeucht models.
 	{\em Algebra and Logic,} 45, 5, 289--295, 2006.
 \end{itemize}
+}{
+\end{itemize}
+\newpage
+}
 
+\iftoggle{full}{
 \centerline{\bf Invited Talks}
+}{
+\centerline{\bf Recent invited talks}
+}
 \begin{tabbing}
 September \ \=2004 \ \ \ \= Notre Dame and Novosibirsk Universities \ \ \ \= \kill
 November    \>2015          \>  {\em Computational Biology Group  Seminar}                      \> Seminar talk \\
@@ -168,10 +202,13 @@ June    \>2014          \>  {\em Algebra and Mathematical Logic:}  \> Special se
 November    \>2013          \>  {\em Randomness Workshop}                                             \> Workshop  talk\\
             \>              \>  at the University of Auckland                                     \> \\
 November    \>2012          \>  National University of Singapore                                          \> Seminar talk\\
+\iftoggle{full}{
 March    \>2012          \>  Auckland University of Technology                                          \> Seminar talk\\
+}{}
 October    \>2011          \> {\em Maltsev Meeting} in Novosibirsk                                            \> Plenary talk\\
-October     \>2011          \>Logic Seminar at Cornell University                                      \> Seminar talk\\
+October     \>2011          \>{\em Logic Seminar} at Cornell University                                      \> Seminar talk\\
 September \>2011         \> {\em Southern Wisconsin Logic Colloquium}                                  \> Seminar talk\\
+\iftoggle{full}{
 November   \>2009       \> Computational Logic Seminar                                              \> Seminar talk\\
                    \>                 \> at CUNY Graduate Centre\\
 October    \>2009          \> Logic Seminar at Cornell University                                      \> Seminar talk\\
@@ -184,8 +221,11 @@ June    \>2005               \> Notre Dame and Novosibirsk Universities         
            \>                        \> Joint Seminar on Constructive Models\\
 November   \>2004       \> Algebra and Logic Seminar                                                    \> Seminar talk\\
                    \>                \> at Novosibirsk State University\\
+}
+{}
 \end{tabbing}
 
+\iftoggle{full}{
 \centerline{\bf Contributed Talks}
 \begin{tabbing}
 September \ \=2004 \ \ \ \= Notre Dame and Novosibirsk Universities \ \ \ \= \kill
@@ -208,6 +248,7 @@ June    \>2008              \> {\em Computability in Europe} in Athens          
 July   \>2007                 \> {\em Logic Colloquium} in Wroclaw                                               \> Contributed talk\\
 July    \>2006                \> {\em Computability in Europe} in Swansea                                      \> Contributed talk\\
 \end{tabbing}
+}{}
 
 \centerline{\bf Grants}
 
@@ -223,6 +264,7 @@ July    \>2006                \> {\em Computability in Europe} in Swansea       
 2003--2009      \> Participant of a Russian President Grant.\\
 \end{tabbing}
 
+\iftoggle{full}{
 \centerline{\bf Travel Grants}
 \begin{tabbing}
 2010--2012 \ \ \= \kill
@@ -238,6 +280,7 @@ July    \>2006                \> {\em Computability in Europe} in Swansea       
 2007                  \> Participation in the Logic Colloquium 2007\\
 2006                  \> Participation in the Computability in Europe 2006\\
 \end{tabbing}
+}{}
 
 \centerline{\bf Students}
 
@@ -256,7 +299,7 @@ July    \>2006                \> {\em Computability in Europe} in Swansea       
 2013--2013       \> Auckland U of Technology       \> Finite Mathematics (715205)\\
 2012--2012       \> Auckland U of Technology        \> Theory of Computation (717300)\\
 2012--2012       \> The University of Auckland              \> Software Engineering Theory (SoftEng\,211)\\
-\\
+\iftoggle{full}{
 2010--2011       \> Irkutsk State University              \> Computable Model Theory\\
 2009--2010       \> Irkutsk State University              \> Model Theory\\
 2009--2011       \> Irkutsk State University              \> Mathematical Logic\\
@@ -267,6 +310,10 @@ July    \>2006                \> {\em Computability in Europe} in Swansea       
 2007--2009       \> Novosibirsk State University       \> Mathematical Logic\\
 2007--2008       \> Novosibirsk State University       \> Number Theory\\
 \end{tabbing}
+}{
+\end{tabbing}
+\newpage
+}
 
 \centerline{\bf Service to Department and University}
 \begin{tabbing}
