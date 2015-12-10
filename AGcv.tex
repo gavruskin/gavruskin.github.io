@@ -1,0 +1,336 @@
+\documentclass[12pt]{article}
+\usepackage[british]{babel}
+\usepackage{amsmath, amssymb, amsfonts, amscd}
+\usepackage{latexsym}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+\usepackage{etoolbox}
+
+\topmargin -15mm
+\textwidth 170mm
+\textheight 224mm
+\oddsidemargin -7mm
+\evensidemargin -7mm
+\sloppy
+
+\synctex=1
+
+\newtoggle{full}
+%\togglefalse{full}
+\toggletrue{full}
+
+\newtoggle{dob}
+%\togglefalse{dob}
+\toggletrue{dob}
+
+\begin{document}
+
+\centerline{\large \bf Curriculum Vitae}
+\vskip5mm
+\centerline{\Large \bfseries A\normalsize LEX \Large G\normalsize AVRYUSHKIN}
+\vskip5mm
+\centerline{3\textsuperscript{rd} December 2015}
+\vskip5mm
+
+\centerline{\bf Contacts}
+\begin{tabbing}
+Residency Status:     \  \= Department of Computer Science \= \kill
+Address:        \> Computational Evolution Group \\
+		\> Department of Computer Science \\
+		\> The University of Auckland\\
+		\> Private Bag 92019\\
+		\> Auckland 1142, New Zealand\\
+Office:		\> Science Centre 303.367\\
+Phone:		\> +64 9 373 7599 ext.\ 85506\\
+Homepage:	\> \href{http://alex.gavruskin.com}{http://alex.gavruskin.com}\\
+Email:		\> \href{mailto:a.gavruskin@auckland.ac.nz}{a.gavruskin@auckland.ac.nz}\\
+\iftoggle{full}{
+Residency Status: \>New Zealand permanent resident\\
+}{}
+\iftoggle{dob}{
+Date of Birth:	\>  18\textsuperscript{th} January 1983\\
+}{}
+\end{tabbing}
+
+\centerline{\bf Education}
+\begin{tabbing}
+2009 \ \ \= Ph.\,D.\ in Mathematics \= in \ \= \kill
+2009       \> Ph.\,D.\ in Mathematics \>  from Sobolev Institute of Mathematics, Novosibirsk\\
+                \>             \>  Thesis advisor: Professor Sergei S.\ Goncharov\\
+2006       \> M.\,S.\ in Mathematics \>  from Novosibirsk State University (with Honours)\\
+2004       \> B.\,S.\ in Mathematics \>  from Novosibirsk State University (with Honours)\\
+\iftoggle{full}{
+2000       \> Gold Medal High School Diploma, Novokuznetsk%\\
+}{}
+\iftoggle{dob}{}{\\}
+\end{tabbing}
+
+\centerline{\bf Professional Activity}
+\begin{tabbing}
+September \=2009\=--\=November \=2009 \ \= Visitor Research fe \ \= \kill
+February \>2012\>--\> present \> \> Research Fellow \> The University of Auckland (NZ)\\
+                \>        \>   \>             \>          \>                          \> Department of Computer Science\\
+\iftoggle{full}{
+February \>2015\>--\>present\>  \> Affiliate   \> Fred Hutchinson Cancer Research Centre (US)\\
+                \>        \>   \>             \>          \>                          \> Computational Biology Programme \\
+August \>2013\>--\>July\>2014 \> Lecturer \> Auckland University of Technology (NZ)\\
+                \>        \>   \>             \>          \>                          \> School of Computer and Mathematical Sciences\\
+November       \>2012\>--\>June \>2013    \> Research Visitor \> National University of Singapore\\
+\> \>\>\>          \>                                  \>School of Computing\\
+September \>2009\>--\>December \>2014 \> Senior Lecturer     \> Irkutsk State University (RF)\\
+                \>        \>   \>             \>          \>                          \>Institute of Mathematics and Computer Science\\
+September \>2009\>--\>November \>2009 \> Research Visitor   \> University of Notre Dame (US)\\
+                \>        \>   \>             \>          \>                          \>Department of Mathematics \\
+April           \> 2009\>--\>August     \>2009              \> Research Assistant     \> Sobolev Institute of Mathematics (RF)\\
+September \>2006\>--\>July            \>2009          \> GTA                          \> Novosibirsk State University (RF)\\
+}{
+September \>2009\>--\>December \>2014 \> Senior Lecturer     \> Irkutsk State University (RF)\\
+                \>        \>   \>             \>          \>                          \>Institute of Mathematics and Computer Science\\
+}
+\end{tabbing}
+
+\centerline{\bf Awards}
+\begin{tabbing}
+2009 \ \ \= \kill
+2011       \> Dr of Science Scholarship for three years\\
+           \> (This Award is a Russian analogue of New Zealand's Rutherford Discovery Fellowship) \\
+2009       \> Siberian Fund for Algebra and Logic Award (2005--2009)\\
+2008       \> Award for excellence in teaching (at ACM-ICPC North-Eastern European Regional Contest)\\
+2007       \> Siberian Mathematical Journal Award (from Sobolev Institute of Mathematics)\\
+2006       \> Best Student Scientific Work Award (from Novosibirsk State University)\\
+2005       \> Maltsev Award (from Novosibirsk State University)\\
+\end{tabbing}
+
+\iftoggle{full}{
+\centerline{\bf Publications}
+}{
+\centerline{\bf Recent publications}
+}
+\begin{itemize}
+\item A.\,Gavryushkin and A.\,Drummond.
+	The space of ultrametric phylogenetic trees.
+	{\em arXiv preprint} \href{http://arxiv.org/abs/1410.3544}{arXiv:1410.3544}.
+	Submitted to {\em Journal of Theoretical Biology} in September 2015.
+	Software is available at
+	\href{https://github.com/gavruskin/tauGeodesic}{https://github.com/gavruskin/tauGeodesic}
+\item T.\,Stadler, T.\,Vaughan, A.\,Gavryushkin, S.\,Guindon, D.\,K\"uhnert, G.E.\,Leventhal, and A.\,Drummond.
+	How well can the exponential-growth coalescent approximate constant-rate birth-death population dynamics?
+	{\em Proceedings of the Royal Society B: Biological Sciences,} 282, 1806, 2015.
+\item P.\,Gavryushkin, Z.\,Popov, K.\,Litasov, and A.\,Gavryushkin.
+	Unbiased crystal structure prediction of $\mathrm{NiSi}$ under high pressure.
+	{\em Journal of Applied Crystallography,} 48, 3, 906--908, 2015.
+\item A.\,Gavryushkin, B.\,Khoussainov, and F.\,Stephan.
+	Reducibilities among equivalence relations induced by recursively enumerable structures.
+	{\em Theoretical Computer Science,} DOI: 10.1016/j.tcs.2015.11.042, 2015.
+\item A.\,Gavryushkin.
+	Decidable models of small theories.
+	{\em Lobachevskii Journal of Mathematics,} 36, 4, 446--449, 2015.
+	In press.
+	{\em arXiv preprint} \href{http://arxiv.org/abs/1504.01180}{arXiv:1504.01180}, 2015.
+\item A.\,Gavryushkin, B.\,Khoussainov, M.\,Kokho, and J.\,Liu.
+	Dynamic algorithms for monotonic interval scheduling problem.
+	{\em Theoretical Computer Science,} Vol.\,562, 227--242, 2014.
+\item A.\,Gavryushkin and A.\,Nies.
+	Universality for left-computably enumerable  metric spaces.
+	{\em Lobachevskii Journal of Mathematics,} 35, 4, 292--294, 2014.
+\item A.\,Gavryushkin, B.\,Khoussainov, M.\,Kokho, and J.\,Liu.
+	Dynamic interval scheduling for multiple machines.
+	{\em ISAAC 2014, Springer LNCS,} Vol.\,8889, 235--246, 2014.
+\item A.\,Gavryushkin, S.\,Jain, B.\,Khoussainov, and F.\,Stephan.
+	Graphs realised by r.\,e.\ equivalence relations.
+	{\em Annals of Pure and Applied Logic,} 165, 7, 1263--1290, 2014.
+\item A.\,Gavryushkin, B.\,Khoussainov, M.\,Kokho, and J.\,Liu.
+	Dynamising interval scheduling: the monotonic case.
+	{\em Combinatorial Algorithms,} LNCS 8288, 178--189, 2013.
+\item A.\,Gavryushkin and B.\,Khoussainov.
+	On decidable and computable models of theories.
+	{\em Springer LNCS} Vol.\,7921, 200--209, 2013.
+\item A.\,Gavryushkin, S.\,Jain, B.\,Khoussainov, and F.\,Stephan.
+	Graphs realised by r.\,e.\ equivalence relations.
+	{\em The Nature of Computation---CiE,} 110--119, 2013.	
+\item A.\,Gavryushkin.
+	On constructive models of theories with linear Rudin-Keisler ordering.
+	{\em Journal of Logic and Computation,} 22, 4, 793--805, 2012.
+\iftoggle{full}{
+\item A.\,Gavryushkin.
+	Computable models of Ehrenfeucht theories.
+	{\em CRM Documents}, Centre de Recerca Matem\`atica, Bellaterra (Barcelona), Vol.\,11, 67--77, 2012.
+\item A.\,Gavryushkin.
+	A new spectrum of computable models.
+	{\em Bulletin of ISU.
+	Series: mathematics,} 4, 4, 7--20, 2010.
+\item A.\,Gavryushkin.
+	Computable limit models.
+	{\em Programs, Proofs, Processes---CiE,} 188--193, 2010.
+\item A.\,Gavryushkin.
+	Computable limit models for Ehrenfeucht theories.
+	{\em Bulletin of ISU.
+	Series: mathematics,} 3, 2, 56--61, 2009.
+\item A.\,Gavryushkin.
+	Computable models of theories with linear Rudin-Keisler ordering.
+	{\em Bulletin of NSU.
+	Series: mathematics, mechanics, informatics,} 9, 2, 30--37, 2009.
+\item A.\,Gavryushkin.
+	Spectra of computable models for Ehrenfeucht theories.
+	{\em Algebra and Logic,} 46, 3, 149--157, 2007.
+\item A.\,Gavryushkin.
+	On complexity of Ehrenfeucht theories with computable model.
+	{\em Logical Approaches to Computational Barriers---CiE,} 105--108, 2006.
+\item A.\,Gavryushkin.
+	Complexity of Ehrenfeucht models.
+	{\em Algebra and Logic,} 45, 5, 289--295, 2006.
+\end{itemize}
+}{
+\end{itemize}
+\newpage
+}
+
+\iftoggle{full}{
+\centerline{\bf Invited Talks}
+}{
+\centerline{\bf Recent invited talks}
+}
+\begin{tabbing}
+September \ \=2004 \ \ \ \= Notre Dame and Novosibirsk Universities \ \ \ \= \kill
+November    \>2015          \>  {\em Computational Biology Group  Seminar}                      \> Seminar talk \\
+            \>              \>  at ETH---Z\"urich                                    \> \\
+February    \>2015          \>  {\em Matsen Group Seminar}                                     \> Seminar talk \\
+            \>              \>  at Fred Hutchinson Cancer Research Centre                                    \> \\
+February    \>2015          \>  {\em Workshop on Networks of Life}                                     \> Workshop talk \\
+            \>              \>  at the University of Canterbury                                      \> \\
+June    \>2014          \>  {\em Algebra and Mathematical Logic:}  \> Special session talk \\
+            \>              \>  {\em Theory and Applications} in Kazan                                    \> \\
+November    \>2013          \>  {\em Randomness Workshop}                                             \> Workshop  talk\\
+            \>              \>  at the University of Auckland                                     \> \\
+November    \>2012          \>  National University of Singapore                                          \> Seminar talk\\
+\iftoggle{full}{
+March    \>2012          \>  Auckland University of Technology                                          \> Seminar talk\\
+}{}
+October    \>2011          \> {\em Maltsev Meeting} in Novosibirsk                                            \> Plenary talk\\
+October     \>2011          \>{\em Logic Seminar} at Cornell University                                      \> Seminar talk\\
+September \>2011         \> {\em Southern Wisconsin Logic Colloquium}                                  \> Seminar talk\\
+\iftoggle{full}{
+November   \>2009       \> Computational Logic Seminar                                              \> Seminar talk\\
+                   \>                 \> at CUNY Graduate Centre\\
+October    \>2009          \> Logic Seminar at Cornell University                                      \> Seminar talk\\
+October    \>2009          \> Logic Seminar                                                                      \> Seminar talk\\
+                 \>                  \> at the University of Notre Dame\\
+November   \>2007       \> {\em Maltsev Meeting} in Novosibirsk                                             \> Plenary talk\\
+September   \>2006      \> Algebra and Logic Seminar                                                    \> Seminar talk\\
+        \>                          \> at Novosibirsk State University\\
+June    \>2005               \> Notre Dame and Novosibirsk Universities                              \> Seminar talk\\
+           \>                        \> Joint Seminar on Constructive Models\\
+November   \>2004       \> Algebra and Logic Seminar                                                    \> Seminar talk\\
+                   \>                \> at Novosibirsk State University\\
+}
+{}
+\end{tabbing}
+
+\iftoggle{full}{
+\centerline{\bf Contributed Talks}
+\begin{tabbing}
+September \ \=2004 \ \ \ \= Notre Dame and Novosibirsk Universities \ \ \ \= \kill
+October     \>2015                \> {\em Alan Wilson Centre Annual Meeting}                                      \> Long talk\\
+                                        \>                \>  at Massey University  \> \\
+February    \>2015                \> {\em The Interface of Mathematics and Biology}                                      \> Long talk\\
+                                        \>                \> {\em NZ Phylogenomics Meeting} in Dunedin  \> \\
+February    \>2014          \>  {\em Workshop on Networks of Life}                                     \> Participant \\
+            \>              \>  at the University of Canterbury                                      \> \\
+June    \>2013                \> {\em Mathematical and Computational}                                      \> Participant\\
+                                        \>                \> {\em Evolutionary Biology} in Montpellier \> \\
+July    \>2013                \> {\em Computability in Europe} in Milan                                       \> Two contributed talks\\
+July    \>2011                 \> {\em Infinity Conference} in Barcelona                                              \> Contributed talk\\
+July    \>2011                 \> {\em Logic Colloquium} in Barcelona                                              \> Contributed talk\\
+July    \>2010                 \> {\em Logic Colloquium} in Paris                                                     \> Contributed talk\\
+June    \>2010                \> {\em Computability in Europe} in Azores                                       \> Contributed talk\\
+May    \>2010                 \> {\em Maltsev Meeting} in Novosibirsk                                             \> Contributed talk\\
+August \>2009         \> {\em Logic Colloquium} in Sofia                                                      \> Contributed talk\\
+June    \>2008              \> {\em Computability in Europe} in Athens                                         \> Contributed talk\\
+July   \>2007                 \> {\em Logic Colloquium} in Wroclaw                                               \> Contributed talk\\
+July    \>2006                \> {\em Computability in Europe} in Swansea                                      \> Contributed talk\\
+\end{tabbing}
+}{}
+
+\centerline{\bf Grants}
+
+\begin{tabbing}
+2010--2012 \ \ \= \kill
+2012--2013       \> Associate Investigator of an FRDF grant from the University of Auckland.\\
+		\> Contract \#\,2795185 for \$200,000.\\
+2011--2013       \> Principal Investigator and Coordinator of a Russian Government Grant.\\
+		 \> Contract \#\,16.740.11.0567 for US\$50,000.\\
+2010--2012       \> Principal Investigator and Coordinator of a Russian Government Grant.\\
+		 \> Contract \#\,$\Pi1227$ for US\$65,000.\\
+2006--2010       \> Participant of a Russian Fund for Fundamental Research Grant.\\
+2003--2009      \> Participant of a Russian President Grant.\\
+\end{tabbing}
+
+\iftoggle{full}{
+\centerline{\bf Travel Grants}
+\begin{tabbing}
+2010--2012 \ \ \= \kill
+2012--2013        \> School of Computing, National University of Singapore\\
+2011                  \> University of Chicago, University of Wisconsin--Madison, and Cornell University\\
+2011                  \> Participation in the Logic Colloquium 2011\\
+2010                  \> Participation in the Logic Colloquium 2010\\
+2010                  \> Participation in the Computability in Europe 2010\\
+2009                  \> University of Notre Dame, Cornell University, and NYC University\\
+2009                  \> Participation in the Logic Colloquium 2009\\
+2008                  \> Participation in the Computability in Europe 2008\\
+2008                  \> Participation in the Summer School Marktoberdorf 2008\\
+2007                  \> Participation in the Logic Colloquium 2007\\
+2006                  \> Participation in the Computability in Europe 2006\\
+\end{tabbing}
+}{}
+
+\centerline{\bf Students}
+
+\begin{tabbing}
+2015--2016 \ \ \ 	\= Edwardo Reynold \ \ \ 	\= Intern \ \ \	\= The University of Auckland (University of Greifswald)	\= \kill
+2015--2016      \> Lena Collienne       \> Intern       \> The University of Auckland (University of Greifswald)\\
+2015--2016      \> Edwardo Reynolds	\> Intern       \> The University of Auckland\\
+\end{tabbing}
+
+\centerline{\bf Teaching}
+
+\begin{tabbing}
+2010--2012 \ \ \ \= Novosibirsk State University \ \ \ \= \kill
+2012--2014        \> The University of Auckland             \> Discrete Structures in Maths and CS (CompSci\,225)\\
+2013--2014       \> Auckland U of Technology       \> Engineering Mathematics I and II (715001/716001)\\
+2013--2013       \> Auckland U of Technology       \> Finite Mathematics (715205)\\
+2012--2012       \> Auckland U of Technology        \> Theory of Computation (717300)\\
+2012--2012       \> The University of Auckland              \> Software Engineering Theory (SoftEng\,211)\\
+\iftoggle{full}{
+2010--2011       \> Irkutsk State University              \> Computable Model Theory\\
+2009--2010       \> Irkutsk State University              \> Model Theory\\
+2009--2011       \> Irkutsk State University              \> Mathematical Logic\\
+2010--2011       \> Irkutsk State University              \> Discrete Mathematics\\
+2009--2010       \> Irkutsk State University              \> Theory of Computation\\
+2006--2009       \> Novosibirsk State University       \> Theory of Algorithms\\
+2007--2009       \> Novosibirsk State University       \> Theoretical Programming\\
+2007--2009       \> Novosibirsk State University       \> Mathematical Logic\\
+2007--2008       \> Novosibirsk State University       \> Number Theory\\
+\end{tabbing}
+}{
+\end{tabbing}
+\newpage
+}
+
+\centerline{\bf Service to Department and University}
+\begin{tabbing}
+2009 \ \ \ \= Domains VIII and Computability Over Continuous Data Types \ \ \ \= \kill
+2013          \> Auckland--Novosibirsk Workshop on       \> Co-Chair of the \\
+              \> Algebra, Logic, Geometry, and Combinatorics      \> Programme Committee \\
+2009          \> Maltsev Meeting                          \> Organising Committee\\
+2007          \> Mathematics in the Modern World          \> Organising Committee\\
+2007          \> Domains VIII and Computability Over Continuous Data Types     \> Organising Committee\\
+2005          \> Asian Logic Conference                   \> Organising Committee%\\
+\end{tabbing}
+
+\noindent I am a regular reviewer for {\em AMS Mathematical Reviews} and a referee for highly reputable journals and conferences such as\\
+$\bullet$ {\em Genome Biology and Evolution}\\
+$\bullet$ {\em Journal of Mathematical Biology}\\
+$\bullet$ {\em LICS Symposium}
+\vskip30pt
+\flushright{This CV: \url{https://gavruskin.github.io/AGcv.pdf}}
+\end{document}
+
