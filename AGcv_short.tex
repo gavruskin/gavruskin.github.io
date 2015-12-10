@@ -18,10 +18,6 @@
 \togglefalse{full}
 %\toggletrue{full}
 
-\newtoggle{dob}
-\togglefalse{dob}
-%\toggletrue{dob}
-
 % pdflatex -jobname=AGcv AGcv_short.tex
 % will write the output to AGcv.pdf
 
@@ -48,8 +44,6 @@ Homepage:	\> \href{http://alex.gavruskin.com}{http://alex.gavruskin.com}\\
 Email:		\> \href{mailto:a.gavruskin@auckland.ac.nz}{a.gavruskin@auckland.ac.nz}\\
 \iftoggle{full}{
 Residency Status: \>New Zealand permanent resident\\
-}{}
-\iftoggle{dob}{
 Date of Birth:	\>  18\textsuperscript{th} January 1983\\
 }{}
 \end{tabbing}
@@ -64,7 +58,6 @@ Date of Birth:	\>  18\textsuperscript{th} January 1983\\
 \iftoggle{full}{
 2000       \> Gold Medal High School Diploma, Novokuznetsk%\\
 }{}
-\iftoggle{dob}{}{\\}
 \end{tabbing}
 
 \centerline{\bf Professional Activity}
