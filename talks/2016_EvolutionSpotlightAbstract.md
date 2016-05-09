@@ -10,8 +10,8 @@ Based on an earlier work with and communicated by Alexei Drummond, the Universit
 
 With phylogenetic methods being employed in various areas of science, the information carried by the tree may have substantially different meanings.
 Examples include gene trees, species trees, transmission trees, language trees, etc.
-In many of these application, the concept of *time* explicitly presents in the data and often is an objective for phylogenetic *time-tree* inference.
-By time here we mean actual absolute time that can be put on a calendar.
+In many of these applications, the concept of *time* explicitly presents in the data and often is an objective for phylogenetic *time-tree* inference.
+By time here we mean actual absolute time that can be put on a calendar, as opposed to relative measures that entangle time and mutation rates.
 
 An important property that distinguishes a time-tree from a classical phylogenetic tree is that all nodes of the tree (divergence and sample events) are ranked according to their time.
 For example, the fact that the MRCA of human and chimp is younger than that of elephant and hyrax is expressed in a time-tree but not in a classical tree.
