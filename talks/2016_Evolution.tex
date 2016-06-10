@@ -52,7 +52,7 @@
 
 \title[\url{https://gavruskin.github.io/talks/2016_Evolution.pdf}]{Next generation phylogenetic inference @Evolution2016:\\
 Nearest neighbors of phylogenetic time-trees}
-\author[These slides:]{Alex Gavryushkin\\
+\author[Alex Gavryushkin \hspace{80pt} These slides:]{Alex Gavryushkin\\
 (joint work with Chris Whidden and Erick Matsen)}
 \titlegraphic{\includegraphics[height=2cm]{UniAuckland}}
 
@@ -103,37 +103,72 @@ Nearest neighbors of phylogenetic time-trees}
 \end{block}
 \end{frame}
 
-\begin{frame}
-THESE ARE NOT THE TYPE OF TREES WE'RE GONNA CONSIDER --- ?
+\begin{frame}{Introduction}
+\begin{block}{Phylogenetic tree}
+\includegraphics[width=\framewidth]{hyrax}
+\end{block}
 \end{frame}
 
-\begin{frame}
+\addtocounter{framenumber}{-1}
+
+\begin{frame}{Introduction}
+\begin{block}{Not in this talk}
+\includegraphics[width=\framewidth]{hyraxNO}
+\end{block}
+\end{frame}
+
+\begin{frame}{Introduction}
 \begin{block}{(Discrete) Time-tree}
 \includegraphics[width=\framewidth]{discreteTimeTree}
 \end{block}
 \end{frame}
 
-\begin{frame}
+\begin{frame}{Main definition}
 \begin{block}{Discrete time-tree space}
 \includegraphics[width=\framewidth]{DtT}
 \end{block}
 \end{frame}
 
-\begin{frame}
+\begin{frame}{Main example}
 \begin{block}{Trees at distance $3$}
 \includegraphics[width=\framewidth]{dts_neighbors}
 \end{block}
 \end{frame}
 
 \begin{frame}{Looks promising!}
-\begin{block}{G, Whidden, and Matsen, arXiv, to appear in June 2016}
+\begin{block}{G, Whidden, and Matsen. \emph{arXiv,} to appear in July 2016}
 \includegraphics[width = \framewidth]{NNI_VS_rNNI}
 \end{block}
 \end{frame}
 
 \begin{frame}{Promising indeed}
-\begin{block}{G and Drummond, JTB 2016}
+\begin{block}{G and Drummond. \emph{JTB,} 2016}
 \includegraphics[width=\framewidth]{tauSpace}
+\end{block}
+\end{frame}
+
+\begin{frame}{More results}
+\begin{block}{Mathematical insight}
+\begin{outline}
+\1 Geometry of discrete time-trees
+	\2 Diameter
+	\2 Micro- and macro-geometry
+\1 Random walking
+	\2 Bottle necks
+	\2 Curvature
+\end{outline}
+\end{block}
+
+\pause
+
+\begin{block}{Surprise!}
+A better bound for the size of $r$-neighborhoods in $\nni$.
+\end{block}
+
+\pause
+
+\begin{block}{This is gonna be fun!}
+A \emph{very} fertile ground for mathematical, computational, and phylogenetic/phylodynamic results.
 \end{block}
 \end{frame}
 
@@ -144,30 +179,15 @@ you for your attention!}}}
 
 \scriptsize
 
-\bibitem{Ollivier}
-Yann Ollivier
-\newblock Ricci curvature of Markov chains on metric spaces
-\newblock {\em J.\ Functional Analysis,} 256, 3, 810--864, 2009
-
 \bibitem{Gavruskin2015}
 Alex Gavryushkin and Alexei Drummond
 \newblock The space of ultrametric phylogenetic trees
-\newblock {\em arXiv preprint} \href{http://arxiv.org/abs/1410.3544}{arXiv:1410.3544}, 2014
-
-\bibitem{chrisErick}
-Chris Whidden and Frederick A.\ Matsen IV
-\newblock Quantifying MCMC exploration of phylogenetic tree space
-\newblock {\em Systematic Biology}, doi:10.1093/sysbio/syv006, 2015
-
-\bibitem{chrisErick2015}
-Chris Whidden and Frederick A.\ Matsen IV
-\newblock Ricci-Ollivier curvature of two random walks on rooted phylogenetic subtree-prune-regraft graph
-\newblock To appear in the proceedings of the {\em Thirteenth Workshop on Analytic Algorithmics and Combinatorics,} 2015
+\newblock \emph{Journal of Theoretical Biology,} Vol.\,402, 197--208, 2016
 
 \bibitem{chrisErickG2015}
 Alex Gavryushkin, Chris Whidden, and Frederick A.\ Matsen IV
-\newblock Random walks over discrete time-trees
-\newblock To appear on the {\em arXiv,} 2015
+\newblock Combinatorics of discrete time-trees: algorithmic insights and open problems
+\newblock To appear on the {\em arXiv,} July 2016
 
 \bibitem{GavryushkinGitHub}
 \url{https://github.com/gavruskin/tauGeodesic}
@@ -176,3 +196,4 @@ Alex Gavryushkin, Chris Whidden, and Frederick A.\ Matsen IV
 \url{https://github.com/gavruskin/tTauCurvature}
 \end{frame}
 \end{document}
+
