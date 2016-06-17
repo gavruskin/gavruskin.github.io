@@ -76,6 +76,7 @@ Nearest neighbors of phylogenetic time-trees}
 }
 
 
+\iffalse%%
 \begin{frame}{Motivation}
 \begin{block}
 
@@ -102,6 +103,7 @@ Nearest neighbors of phylogenetic time-trees}
 \end{outline}
 \end{block}
 \end{frame}
+\fi%%
 
 \begin{frame}{Introduction}
 \begin{block}{Phylogenetic tree}
@@ -135,10 +137,22 @@ Nearest neighbors of phylogenetic time-trees}
 \end{block}
 \end{frame}
 
-\begin{frame}{Looks promising!}
+\begin{frame}{Looks promising}
 \begin{block}{G, Whidden, and Matsen. \emph{arXiv,} to appear in July 2016}
 \includegraphics[width = \framewidth]{NNI_VS_rNNI}
 \end{block}
+
+\pause
+
+\begin{block}{And challenging!}
+What it the complexity of this graph?
+\end{block}
+
+\begin{outline}
+\1 Over 25 years to solve for NNI
+\1 Over 7 erroneous papers published
+\end{outline}
+
 \end{frame}
 
 \begin{frame}{Promising indeed}
@@ -164,16 +178,32 @@ Nearest neighbors of phylogenetic time-trees}
 \begin{block}{Surprise!}
 A better bound for the size of $r$-neighborhoods in $\nni$.
 \end{block}
+\end{frame}
+
+\begin{frame}{Take home message}
+
+\begin{block}{}
+\begin{outline}
+\1 Time-trees and classical phylogenetic trees have different geometric and algorithmic properties.
+\1 Often, geometric and algorithmic results for classical trees do not scale to time-trees.
+\end{outline}
+\end{block}
 
 \pause
 
-\begin{block}{This is gonna be fun!}
-A \emph{very} fertile ground for mathematical, computational, and phylogenetic/phylodynamic results.
+\begin{block}{}
+\begin{outline}
+\1 Math/algorithms:
+	\2 Challenging problems that matter
+	\2 Connections to other areas of math
+\1 Computing:
+	\2 Amenable to various tree search techniques
+	\2 Natural and efficient data structures
+\end{outline}
 \end{block}
 \end{frame}
 
-\begin{frame}{\href{http://alex.gavruskin.com/pictures/}{\Large{Thank
-you for your attention!}}}
+\begin{frame}{\href{http://alex.gavruskin.com/pictures/}{\Large{Thank you for your attention!}}}
 \thebibliography{9}
 \bibliographystyle{alpha}
 
