@@ -128,8 +128,3 @@ __pycache__
 .Rhistory
 *.tmp
 
-css/
-js/
-lib/
-plugin/
-test/
