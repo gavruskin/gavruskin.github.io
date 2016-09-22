@@ -14,7 +14,10 @@
    version="1.1"
    id="svg3631"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="UniAuckland.svg">
+   sodipodi:docname="UniAuckland.svg"
+   inkscape:export-filename="/home/gavruskin/Documents/gavruskin.github.io/talks/images/UniAuckland.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
   <metadata
      id="metadata3641">
     <rdf:RDF>
@@ -23,7 +26,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -37,7 +40,7 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1056"
+     inkscape:window-height="1200"
      id="namedview3639"
      showgrid="false"
      inkscape:zoom="1.1295607"
