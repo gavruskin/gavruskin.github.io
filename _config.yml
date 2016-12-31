@@ -20,7 +20,7 @@ email: alex@gavruskin.com
 description: > # this means to ignore newlines until "baseurl:"
   Alex Gavryushkin is a research fellow with Niko Beerenwinkel,
   Department of Biosystems Science and Engineering, ETH Zürich.
-  Alex is working in mathematical and computational biology, phylogenomics, and algorithms.
+  Alex is working in mathematical and computational biology, phylogenomics, and gene interactions.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gavruskin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gavruskin
