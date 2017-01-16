@@ -7,8 +7,8 @@ permalink: /pictures/
 <h3 style="text-align:center">18 March 2015:</h3>
 <div style="text-align:center"><a href="https://sites.google.com/a/gavruskin.com/alexander/pictures/Gavryushkin2015_03_18.jpg?attredirects=0"><img border="0" height="320" src="https://sites.google.com/a/gavruskin.com/alexander/pictures/Gavryushkin2015_03_18.jpg" width="213"></a></div><br>
 
-<h3 style="text-align:center">This is hardly a real place:</h3>
-<div style="text-align:center"><a href="https://sites.google.com/a/gavruskin.com/alexander/pictures/nz.JPG?attredirects=0"><img border="0" height="266" src="https://sites.google.com/a/gavruskin.com/alexander/pictures/nz.JPG" width="400"></a></div><br>
+### Group retreat in Mürren:
+![Group retreat](/assets/Murren_retreat.jpg)
 
 <h3 style="text-align:center">With <a href="http://www.math.canterbury.ac.nz/~m.steel/">Mike Steel</a> at field work:</h3>
 <div style="text-align:center"><a href="https://sites.google.com/a/gavruskin.com/alexander/pictures/20150209_132931.jpg?attredirects=0"><img border="0" height="240" src="https://sites.google.com/a/gavruskin.com/alexander/pictures/20150209_132931.jpg" width="400"></a></div><br>
