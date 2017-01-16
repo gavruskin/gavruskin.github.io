@@ -5,7 +5,7 @@ permalink: /pictures/
 ---
 
 ### 18 March 2015:
-[March 2015](assets/Gavryushkin_20150318.jpg)
+![March 2015](assets/Gavryushkin_20150318.jpg)
 
 ### Group retreat in Mürren:
 ![Group retreat](/assets/Murren_retreat.jpg)
