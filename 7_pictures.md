@@ -19,8 +19,9 @@ permalink: /pictures/
 ### With [Anil Nerode](http://www.math.cornell.edu/~anil/) and Sally Sievers:
 ![Anil](/assets/anil.jpg)
 
-### With Sasha:
+### With [Sasha](http://alexandra.gavruskin.com):
 ![Sasha](/assets/with_Sasha_Moscow.jpg)
+
 ![Sasha](/assets/with_Sasha_Irkutsk.jpg)
 
 ### At work:
