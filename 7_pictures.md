@@ -4,8 +4,8 @@ title: Pictures
 permalink: /pictures/
 ---
 
-<h3 style="text-align:center">18 March 2015:</h3>
-<div style="text-align:center"><a href="https://sites.google.com/a/gavruskin.com/alexander/pictures/Gavryushkin2015_03_18.jpg?attredirects=0"><img border="0" height="320" src="https://sites.google.com/a/gavruskin.com/alexander/pictures/Gavryushkin2015_03_18.jpg" width="213"></a></div><br>
+### 18 March 2015:
+[March 2015](assets/Gavryushkin_20150318.jpg)
 
 ### Group retreat in Mürren:
 ![Group retreat](/assets/Murren_retreat.jpg)
