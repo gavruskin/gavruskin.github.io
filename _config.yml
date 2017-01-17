@@ -34,4 +34,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+include:
+  - talks/*.pdf
 
