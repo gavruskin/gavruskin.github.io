@@ -35,6 +35,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - talks/
-keep_files:
+include:
   - talks/
 
