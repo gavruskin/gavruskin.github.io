@@ -7,7 +7,7 @@ permalink: /talks/
 
 ### Seminar talks
 
-- <a href="http://www.uni-bielefeld.de/(en)/ZIF/KG/2016GeneRegulation/Events/">December 2016</a>, ZiF, Bielefeld, Germany. Workshop talk (<a href="https://gavruskin.github.io/talks/2016_ZiF.html">slides</a>)
+- [December 2016](http://www.uni-bielefeld.de/ZIF/KG/2016GeneRegulation/Events/), ZiF, Bielefeld, Germany. Workshop talk ([slides](/talks/2016_ZiF))
 
 - <a href="https://www.bsse.ethz.ch/cevo">November 2016</a>, CEB, ETH Zürich, Basel, Switzerland. Seminar talk (<a href="https://gavruskin.github.io/talks/2016_ETH_CEB.html">slides</a>)
 
