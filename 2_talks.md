@@ -40,7 +40,7 @@ permalink: /talks/
 
 ### Plenary and Special Session talks
 
-- [June 2016](http://www.evolutionmeetings.org/special-talks.html), Evolution Meeting, Austin, Texas. Spotlight Session talk ([slides](https://gavruskin.github.io/talks/2016_Evolution.pdf))
+- [June 2016](http://www.evolutionmeetings.org/special-talks.html), Evolution Meeting, Austin, Texas. Spotlight Session talk ([slides](/talks/2016_Evolution.pdf))
 
 - [October 2011](http://www.math.nsc.ru/conference/malmeet/11/Plenary_e.htm), Maltsev Meeting, Novosibirsk, Russia. Plenary talk ([slides](https://sites.google.com/a/gavruskin.com/alexander/talks/2011MM.pdf?attredirects=0))
 
@@ -49,9 +49,9 @@ permalink: /talks/
 
 ### Other talks
 
-- [September 2016](http://community.geosociety.org/gsa2016/home), Denver, Colorado, United States. Contributed talk ([slides](https://gavruskin.github.io/talks/2016_GSA.pdf))
+- [September 2016](http://community.geosociety.org/gsa2016/home), Denver, Colorado, United States. Contributed talk ([slides](/talks/2016_GSA.pdf))
 
-- [October 2015](http://www.allanwilsoncentre.ac.nz/), Alan Wilson Centre, Palmerston North, New Zealand. Long talk ([slides](https://gavruskin.github.io/talks/2015_AWC.pdf))
+- [October 2015](http://www.allanwilsoncentre.ac.nz/), Alan Wilson Centre, Palmerston North, New Zealand. Long talk ([slides](/talks/2015_AWC.pdf))
 
 
 - [February 2015](http://www.math.canterbury.ac.nz/bio/events/portobello2015/), University of Otago, Portobello, New Zealand. Long talk ([slides](https://www.dropbox.com/s/suc4k18typ51vbe/2015PortobelloGavruskin.pdf?dl=0))
