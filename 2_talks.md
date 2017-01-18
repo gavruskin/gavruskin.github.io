@@ -23,7 +23,7 @@ permalink: /talks/
 
 - [August 2013](http://aut.ac.nz), Auckland University of Technology, New Zealand. Seminar talk ([slides](https://www.dropbox.com/s/f9gza74uzcpkshw/DeptSeminarAug2013.pdf))
 
-- [November 2012](http://www.comp.nus.edu.sg/~fstephan/logicseminar.html), National University of Singapore. Seminar talk ([slides](http://alexander.gavruskin.com/talks/2012NUS.pdf))
+- [November 2012](http://www.comp.nus.edu.sg/~fstephan/logicseminar.html), National University of Singapore. Seminar talk ([slides](/talks/2012_NUS.pdf))
 
 - [March 2012](http://aut.ac.nz), Auckland University of Technology, New Zealand. Seminar talk ([slides](https://sites.google.com/a/gavruskin.com/alexander/talks/2012AUTech.pdf?attredirects=0))
 
