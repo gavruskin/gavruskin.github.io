@@ -56,9 +56,9 @@ permalink: /talks/
 
 - [February 2015](http://www.math.canterbury.ac.nz/bio/events/portobello2015/), University of Otago, Portobello, New Zealand. Long talk ([slides](https://www.dropbox.com/s/suc4k18typ51vbe/2015PortobelloGavruskin.pdf?dl=0))
 
-- [July 2013](http://cie2013.disco.unimib.it), Milan. Contributed talk ([slides](https://www.dropbox.com/s/btwgq8ke0lglt5z/2013CiEgavruskin.pdf)slides(/))
+- [July 2013](http://cie2013.disco.unimib.it), Milan. Contributed talk ([slides](https://www.dropbox.com/s/btwgq8ke0lglt5z/2013CiEgavruskin.pdf))
 
-- [Summer 2011](http://www.crm.cat/cinfinity/), Barcelona. Contributed talk ([slides](https://sites.google.com/a/gavruskin.com/alexander/talks/2011IC.pdf?attredirects=0)slides(/))
+- [Summer 2011](http://www.crm.cat/cinfinity/), Barcelona. Contributed talk ([slides](https://sites.google.com/a/gavruskin.com/alexander/talks/2011IC.pdf?attredirects=0))
 
 - [July 2011](http://logic2011.org/), Barcelona. Contributed talk ([slides](https://sites.google.com/a/gavruskin.com/alexander/talks/2011LC.pdf?attredirects=0))
 
