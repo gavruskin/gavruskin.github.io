@@ -54,7 +54,7 @@ permalink: /talks/
 - [October 2015](http://www.allanwilsoncentre.ac.nz/), Alan Wilson Centre, Palmerston North, New Zealand. Long talk ([slides](/talks/2015_AWC.pdf))
 
 
-- [February 2015](http://www.math.canterbury.ac.nz/bio/events/portobello2015/), University of Otago, Portobello, New Zealand. Long talk ([slides](https://www.dropbox.com/s/suc4k18typ51vbe/2015PortobelloGavruskin.pdf?dl=0))
+- [February 2015](http://www.math.canterbury.ac.nz/bio/events/portobello2015/), University of Otago, Portobello, New Zealand. Long talk ([slides](/talks/2015_NZPGM.pdf))
 
 - [July 2013](http://cie2013.disco.unimib.it), Milan. Contributed talk ([slides](https://www.dropbox.com/s/btwgq8ke0lglt5z/2013CiEgavruskin.pdf))
 
