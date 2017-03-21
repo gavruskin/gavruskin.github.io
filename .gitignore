@@ -132,6 +132,6 @@ __pycache__
 .RData
 .Rhistory
 *.tmp
-
 test/
+*internal.html
 
