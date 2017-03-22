@@ -7,19 +7,19 @@ permalink: /talks/
 
 ### Seminar talks
 
-- [December 2016](http://www.uni-bielefeld.de/ZIF/KG/2016GeneRegulation/Events/), ZiF, Bielefeld, Germany. Workshop talk ([Gene interactions: a geometric approach](/talks/2016_ZiF))
+- [December 2016](http://www.uni-bielefeld.de/ZIF/KG/2016GeneRegulation/Events/), ZiF, Bielefeld, Germany. Workshop talk [Gene interactions: a geometric approach](/talks/2016_ZiF)
 
-- [November 2016](https://www.bsse.ethz.ch/cevo), CEB, ETH Zürich, Basel, Switzerland. Seminar talk ([Discrete time trees: theory and open problems](/talks/2016_ETH_CEB))
+- [November 2016](https://www.bsse.ethz.ch/cevo), CEB, ETH Zürich, Basel, Switzerland. Seminar talk [Discrete time trees: theory and open problems](/talks/2016_ETH_CEB)
 
-- [October 2016](https://www.bsse.ethz.ch/cbg), CBG, ETH Zürich, Basel, Switzerland. Seminar talk ([Gene interactions: a geometric approach](/talks/2016_ETH_CBG))
+- [October 2016](https://www.bsse.ethz.ch/cbg), CBG, ETH Zürich, Basel, Switzerland. Seminar talk [Gene interactions: a geometric approach](/talks/2016_ETH_CBG)
 
-- [October 2016](http://phyloworks.org/), Iowa State University, Ames, IO, US. Seminar talk ([Gene interactions: a geometric approach](/talks/2016_ISU))
+- [October 2016](http://phyloworks.org/), Iowa State University, Ames, IO, US. Seminar talk [Gene interactions: a geometric approach](/talks/2016_ISU)
 
-- [September 2016](http://www.sib.swiss/), Swiss Institute of Bioinformatics, Zürich, Switzerland. Workshop talk ([Discrete time-trees: theory and open problems](/talks/2016_PhyloSIB))
+- [September 2016](http://www.sib.swiss/), Swiss Institute of Bioinformatics, Zürich, Switzerland. Workshop talk [Discrete time-trees: theory and open problems](/talks/2016_PhyloSIB)
 
-- [November 2015](https://www.bsse.ethz.ch/cbg), ETH Zürich, Basel, Switzerland. Seminar talk ([Convergence and curvature of phylogenetic Markov chains](/talks/2015_ETH.pdf))
+- [November 2015](https://www.bsse.ethz.ch/cbg), ETH Zürich, Basel, Switzerland. Seminar talk [Convergence and curvature of phylogenetic Markov chains](/talks/2015_ETH.pdf)
 
-- [February 2015](http://matsen.fhcrc.org), Fred Hutchinson Cancer Research Centre, Seattle, WA, US. Seminar talk ([The space of ultrametric phylogenetic trees](/talks/2015_Hutch.pdf))
+- [February 2015](http://matsen.fhcrc.org), Fred Hutchinson Cancer Research Centre, Seattle, WA, US. Seminar talk [The space of ultrametric phylogenetic trees](/talks/2015_Hutch.pdf)
 
 - [August 2013](http://aut.ac.nz), Auckland University of Technology, New Zealand. Seminar talk ([slides](https://www.dropbox.com/s/f9gza74uzcpkshw/DeptSeminarAug2013.pdf))
 
@@ -40,7 +40,7 @@ permalink: /talks/
 
 ### Plenary and Special Session talks
 
-- [June 2016](http://www.evolutionmeetings.org/special-talks.html), Evolution Meeting, Austin, Texas. Spotlight Session talk ([slides](/talks/2016_Evolution.pdf))
+- [June 2016](http://www.evolutionmeetings.org/special-talks.html), Evolution Meeting, Austin, Texas. Spotlight Session talk [Nearest neighbors of phylogenetic time-trees](/talks/2016_Evolution.pdf)
 
 - [October 2011](http://www.math.nsc.ru/conference/malmeet/11/Plenary_e.htm), Maltsev Meeting, Novosibirsk, Russia. Plenary talk ([slides](https://sites.google.com/a/gavruskin.com/alexander/talks/2011MM.pdf?attredirects=0))
 
@@ -49,12 +49,12 @@ permalink: /talks/
 
 ### Other talks
 
-- [September 2016](http://community.geosociety.org/gsa2016/home), Denver, Colorado, United States. Contributed talk ([slides](/talks/2016_GSA.pdf))
+- [September 2016](http://community.geosociety.org/gsa2016/home), Denver, Colorado, United States. Contributed talk [The space of sampled ancestor trees](/talks/2016_GSA.pdf)
 
-- [October 2015](http://www.allanwilsoncentre.ac.nz/), Alan Wilson Centre, Palmerston North, New Zealand. Long talk ([slides](/talks/2015_AWC.pdf))
+- [October 2015](http://www.allanwilsoncentre.ac.nz/), Alan Wilson Centre, Palmerston North, New Zealand. Long talk [Convergence and curvature of phylogenetic Markov chains](/talks/2015_AWC.pdf)
 
 
-- [February 2015](http://www.math.canterbury.ac.nz/bio/events/portobello2015/), University of Otago, Portobello, New Zealand. Long talk ([slides](/talks/2015_NZPGM.pdf))
+- [February 2015](http://www.math.canterbury.ac.nz/bio/events/portobello2015/), University of Otago, Portobello, New Zealand. Long talk [The space of ultrametric phylogenetic trees](/talks/2015_NZPGM.pdf)
 
 - [July 2013](http://cie2013.disco.unimib.it), Milan. Contributed talk ([slides](https://www.dropbox.com/s/btwgq8ke0lglt5z/2013CiEgavruskin.pdf))
 
