@@ -7,6 +7,8 @@ permalink: /talks/
 
 ### Seminar talks
 
+- [March 2017](https://www.bsse.ethz.ch/cbg), CBG, ETH Zürich, Basel, Switzerland. Seminar talk [Bayesian phylogenetics](/talks/2016_March_ETH_CBG)
+
 - [December 2016](http://www.uni-bielefeld.de/ZIF/KG/2016GeneRegulation/Events/), ZiF, Bielefeld, Germany. Workshop talk [Gene interactions: a geometric approach](/talks/2016_ZiF)
 
 - [November 2016](https://www.bsse.ethz.ch/cevo), CEB, ETH Zürich, Basel, Switzerland. Seminar talk [Discrete time trees: theory and open problems](/talks/2016_ETH_CEB)
