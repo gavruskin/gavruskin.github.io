@@ -7,19 +7,19 @@ permalink: /talks/
 
 ### Seminar talks
 
-- [December 2016](http://www.uni-bielefeld.de/ZIF/KG/2016GeneRegulation/Events/), ZiF, Bielefeld, Germany. Workshop talk ([slides](/talks/2016_ZiF))
+- [December 2016](http://www.uni-bielefeld.de/ZIF/KG/2016GeneRegulation/Events/), ZiF, Bielefeld, Germany. Workshop talk ([Gene interactions: a geometric approach](/talks/2016_ZiF))
 
-- [November 2016](https://www.bsse.ethz.ch/cevo), CEB, ETH Zürich, Basel, Switzerland. Seminar talk ([slides](/talks/2016_ETH_CEB))
+- [November 2016](https://www.bsse.ethz.ch/cevo), CEB, ETH Zürich, Basel, Switzerland. Seminar talk ([Discrete time trees: theory and open problems](/talks/2016_ETH_CEB))
 
-- [October 2016](https://www.bsse.ethz.ch/cbg), CBG, ETH Zürich, Basel, Switzerland. Seminar talk ([slides](/talks/2016_ETH_CBG))
+- [October 2016](https://www.bsse.ethz.ch/cbg), CBG, ETH Zürich, Basel, Switzerland. Seminar talk ([Gene interactions: a geometric approach](/talks/2016_ETH_CBG))
 
-- [October 2016](http://phyloworks.org/), Iowa State University, Ames, IO, US. Seminar talk ([slides](/talks/2016_ISU))
+- [October 2016](http://phyloworks.org/), Iowa State University, Ames, IO, US. Seminar talk ([Gene interactions: a geometric approach](/talks/2016_ISU))
 
-- [September 2016](http://www.sib.swiss/), Swiss Institute of Bioinformatics, Zürich, Switzerland. Workshop talk ([slides](/talks/2016_PhyloSIB))
+- [September 2016](http://www.sib.swiss/), Swiss Institute of Bioinformatics, Zürich, Switzerland. Workshop talk ([Discrete time-trees: theory and open problems](/talks/2016_PhyloSIB))
 
-- [November 2015](https://www.bsse.ethz.ch/cbg), ETH Zürich, Basel, Switzerland. Seminar talk ([slides](/talks/2015_ETH.pdf))
+- [November 2015](https://www.bsse.ethz.ch/cbg), ETH Zürich, Basel, Switzerland. Seminar talk ([Convergence and curvature of phylogenetic Markov chains](/talks/2015_ETH.pdf))
 
-- [February 2015](http://matsen.fhcrc.org), Fred Hutchinson Cancer Research Centre, Seattle, WA, US. Seminar talk ([slides](https://www.dropbox.com/s/mkkrf8s7utnw4fg/2015FredHutchGavruskin.pdf?dl=0))
+- [February 2015](http://matsen.fhcrc.org), Fred Hutchinson Cancer Research Centre, Seattle, WA, US. Seminar talk ([The space of ultrametric phylogenetic trees](/talks/2015_Hutch.pdf))
 
 - [August 2013](http://aut.ac.nz), Auckland University of Technology, New Zealand. Seminar talk ([slides](https://www.dropbox.com/s/f9gza74uzcpkshw/DeptSeminarAug2013.pdf))
 
