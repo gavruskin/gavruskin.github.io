@@ -7,7 +7,7 @@ permalink: /talks/
 
 ### Seminar talks
 
-- [May 2017](https://www.mis.mpg.de/calendar/conferences/2017/interalg.html), MPI, Leipzig, Germany. Workshop talk [Genetic interactions and fitness landscapes](talks/2017_Leipzig_MPI)
+- [May 2017](https://www.mis.mpg.de/calendar/conferences/2017/interalg.html), MPI, Leipzig, Germany. Workshop talk [Genetic interactions and fitness landscapes](2017_Leipzig_MPI)
 
 - [March 2017](https://www.bsse.ethz.ch/cbg), CBG, ETH Zürich, Basel, Switzerland. Seminar talk [Bayesian phylogenetics](/talks/2017_March_ETH_CBG)
 
