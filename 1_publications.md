@@ -9,11 +9,12 @@ permalink: /publications/
 - Inferring genetic interactions from comparative fitness data.
   With Kristina Crona, Devin Greene, and Niko Beerenwinkel.
   <i>bioRxiv</i>, DOI: [10.1101/137372](https://doi.org/10.1101/137372), 2017
+  ([.pdf](http://biorxiv.org/content/biorxiv/early/2017/05/15/137372.full.pdf))
 
 - The combinatorics of discrete time-trees: theory and open problems.
   With Chris Whidden and Erick Matsen.
   <i>bioRxiv</i>, DOI: [10.1101/063362](http://dx.doi.org/10.1101/063362), 2016
-  ([blog post by Erick](http://matsen.fredhutch.org/general/2016/07/11/discrete-time-tree.html))
+  ([.pdf](http://biorxiv.org/content/biorxiv/early/2016/10/27/063362.full.pdf), [blog post by Erick](http://matsen.fredhutch.org/general/2016/07/11/discrete-time-tree.html))
 
 - The space of ultrametric phylogenetic trees.
   With Alexei Drummond.
