@@ -22,7 +22,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Department of Biosystems Science and Engineering, ETH Zürich.
   Alex is working in mathematical and computational biology, phylogenomics, and gene interactions.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://gavruskin.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://alex.gavruskin.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gavruskin
 github_username:  gavruskin
 
@@ -34,4 +34,3 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - /talks/css
