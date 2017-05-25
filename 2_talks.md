@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Talks & Slides
+title: Talks & Slides - Alex Gavryushkin
 permalink: /talks/
 ---
 
