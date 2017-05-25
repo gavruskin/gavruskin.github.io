@@ -34,3 +34,4 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - talks/css/theme/README.md
