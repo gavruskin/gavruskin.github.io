@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications - Alex Gavryushkin
+title: Publications
 permalink: /publications/
 ---
 
