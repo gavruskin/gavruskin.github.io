@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Calendar - Alex Gavryushkin
+title: Calendar
 permalink: /calendar/
 ---
 

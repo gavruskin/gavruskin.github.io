@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Pictures - Alex Gavryushkin
+title: Pictures
 permalink: /pictures/
 ---
 

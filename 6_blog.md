@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Miniblog - Alex Gavryushkin
+title: Miniblog
 permalink: /blog/
 ---
 

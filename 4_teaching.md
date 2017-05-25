@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Teaching - Alex Gavryushkin
+title: Teaching
 permalink: /teaching/
 ---
 

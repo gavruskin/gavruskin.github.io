@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Upcoming meetings - Alex Gavryushkin
+title: Upcoming meetings
 permalink: /upcoming-meetings/
 ---
 
