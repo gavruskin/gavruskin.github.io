@@ -43,21 +43,21 @@
 </section>
 
 <section>
-	Throughout, we consider $n$ <b>biallelic</b> loci, for various values of $n$
+	Throughout, we consider $n$ <b>biallelic</b> loci, for different $n$.
 	<p class="fragment" data-fragment-index="1">
-	  That is, the set of genotypes is $\mathcal G = \{0,1\}^{n}$
+	  That is, the set of genotypes is $\mathcal G = \{0,1\}^{n}$.
 	</p>
 	<p class="fragment" data-fragment-index="2">
-	  A <i>fitness landscape</i> is a function $w:\mathcal G \to \mathbb R^+$
+	  A <i>fitness landscape</i> is a function $w:\mathcal G \to \mathbb R^+$.
 	</p>
 	<p class="fragment" data-fragment-index="2">
-	  For $g \in \mathcal G$, &ensp;$w(g)$ is called the <i>fitness</i> of genotype $g$ and denoted $w_g$
+	  For $g \in \mathcal G$, &ensp;$w(g)$ is called the <i>fitness</i> of genotype $g$ and denoted $w_g$.
 	</p>
 </section>
 
 <section>
 	<h3>Wrightian fitness</h3>
-	is defined as the average number of offspring in a population with fixed genotype
+	is defined as the average number of offspring in a population with fixed genotype.
 	<p class="fragment" data-fragment-index="1">
 	  That is:
 	</p>
@@ -80,27 +80,28 @@
 	<h3>Understanding three-way interactions</h3>
 
 	<p class="fragment" data-fragment-index="1">
-	Marginal epistasis?
+	  Total three-way interaction?
 	</p>
 	<p class="fragment" data-fragment-index="1">
-	$\small u_{\color{blue}{0}11} = w_{\color{blue}{0}00} + w_{\color{blue}{1}00} + w_{\color{blue}{0}11} + w_{\color{blue}{1}11} − (w_{\color{blue}{0}01} + w_{\color{blue}{1}01}) − (w_{\color{blue}{0}10} + w_{\color{blue}{1}10})$
-	</p>
-	
-	<p class="fragment" data-fragment-index="2">
-	Total three-way interaction?
-	</p>
-	<p class="fragment" data-fragment-index="2">
-	$\small u_{111} = w_{000} + w_{011} + w_{101} + w_{110} - (w_{001} + w_{010} + w_{100} + w_{111})$
+	  $\small u_{111} = w_{000} + w_{011} + w_{101} + w_{110} - (w_{001} + w_{010} + w_{100} + w_{111})$
 	</p>
 
+	<p class="fragment" data-fragment-index="2">
+	  Marginal epistasis?
+	</p>
+
+	<p class="fragment" data-fragment-index="2">
+	  $\small u_{\color{blue}{0}11} = w_{\color{blue}{0}00} + w_{\color{blue}{1}00} + w_{\color{blue}{0}11} + w_{\color{blue}{1}11} − (w_{\color{blue}{0}01} + w_{\color{blue}{1}01}) − (w_{\color{blue}{0}10} + w_{\color{blue}{1}10})$
+	</p>
+	
 	<p class="fragment" data-fragment-index="3">
-	Conditional epistasis?
-	<p>
+	  Conditional epistasis?
+	</p>
 	<p class="fragment" data-fragment-index="3">
-	$\small e = w_{\color{blue}{0}00} − w_{\color{blue}{0}01} − w_{\color{blue}{0}10} + w_{\color{blue}{0}11}$
+	  $\small e = w_{\color{blue}{0}00} − w_{\color{blue}{0}01} − w_{\color{blue}{0}10} + w_{\color{blue}{0}11}$
 	</p>
 	<p class="fragment" data-fragment-index="4">
-	Total mess!
+	  Total mess!
 	</p>
 </section>
 
@@ -189,7 +190,7 @@
 </section>
 
 <section>
-	<h3>Why if fitness hard to measure?</h3>
+	<h3>Why is fitness hard to measure?</h3>
 	<div align="center">
 	<img data-src="images/disc_diffusion.png" align="center">
 	</div>
@@ -201,12 +202,12 @@
 <section>
 	<h3>Results at a glance</h3>
 	<ul>
-	<li> We provide a complete characterization of <i>partial orders</i> that imply circuit interaction (think epistasis).
-	<li> Fitness graphs arise in competition-like experiments and include:
-		<ul>
-		<li> Rank orders
-		<li> Mutation fitness graphs
-		</ul>
+	  <li> We provide a complete characterization of <i>partial fitness orders</i> that imply circuit interaction (think epistasis).
+	  <li> Partial fitness orders arise in competition-like experiments and include:
+	    <ul>
+	      <li> Rank orders
+	      <li> Mutation fitness graphs
+	    </ul>
 	</ul>
 	<br>
 	<br>
@@ -215,14 +216,14 @@
 
 <section>
 	<h4>Rank orders. The simplest case.</h4>
-	<img class="stretch" data-src="images/all_24_rankings_two_loci.svg">
 	$\small u_{11} = w_{00} + w_{11} - (w_{01} + w_{10})$
+	<img class="stretch" data-src="images/all_24_rankings_two_loci.svg">
 </section>
 
 <section>
 	<h3>Characterization of epistatic rank orders</h3>
 	<p class="fragment shrink" data-fragment-index="1">
-	<b>Theorem.</b> Consider a biallelic $n$-locus system. 
+	<b>Theorem 1.</b> Consider a biallelic $n$-locus system. 
 	The number of rank orders which imply $n$-way epistasis is:
 	\[
 	\frac{(2^n)! \times 2}{2^{n-1}+1}
@@ -259,17 +260,17 @@ among all rank orders is:
 </section>
 
 <section>
-	  <b>Theorem 1.</b> Let $f$ be a linear form with integer coefficients.
-	  Assume that the sum of its coefficients is zero.
-	  Then a rank order implies that $f$ is not zero if and only if it is mapped to a Dyck word by $\varphi^f$.
+	  <b>Theorem 2.</b> Let $f$ be a linear form with integer coefficients.
+	  Assume that the sum of the coefficients of $f$ is zero.
+	  Then a rank order implies that $f$ is not zero if and only if the rank order is mapped to a Dyck word by $\varphi^f$.
 	<p class="fragment" data-fragment-index="1">
-	  <b>Theorem 2.</b> A partial order implies $f$-interaction exactly if all its total extensions do.
+	  <b>Theorem 3.</b> A partial order implies $f$-interaction exactly if all its total extensions do.
 	</p>
 	<p class="fragment" data-fragment-index="2">
 	  Call a map $g: O \to E$ monotonic with respect to a partial order $\prec$ if $x \prec g(x)$ for all $x$, where $O \sqcup E$ is a partition of $\prec$.
 	</p>
 	<p class="fragment" data-fragment-index="3">
-	  <b>Conjecture 3.</b> A partial order $\prec$ implies positive (negative) interaction iff there exists a monotonic wrt $\prec$ bijection from $O$ to $E$ (from $E$ to $O$).
+	  <b>Conjecture 4.</b> A partial order $\prec$ implies positive (negative) interaction iff there exists a monotonic wrt $\prec$ bijection from $O$ to $E$ (from $E$ to $O$).
 	</p>
 </section>
 
@@ -315,27 +316,22 @@ among all rank orders is:
 </section>
 
 <section data-transition="slide-in fade-out">
-	<h4>Mutation graph</h4>
 	<img class="stretch" data-src="images/tem_for_Niko.svg">
 </section>
 
 <section data-transition="fade-in fade-out">
-	<h4>Mutation graph</h4>
 	<img class="stretch" data-src="images/tem_highlight_for_Niko.svg">
 </section>
 
 <section data-transition="fade-in slide-out">
-	<h4>Mutation graph</h4>
 	<img class="stretch" data-src="images/tem_highlight_shaded.svg">
 </section>
 
 <section>
-	<h4>Mutation graph</h4>
 	<img class="stretch" data-src="images/tem_order.svg">
 </section>
 
 <section>
-	<h4>Mutation graph</h4>
 	<img class="stretch" data-src="images/tem_order_extension.svg">
 </section>
 
@@ -357,9 +353,9 @@ among all rank orders is:
 	<h3>Want to learn more?</h3>
 	We've got you covered!<br><br>
 	<ul>
-	<li> All my talks (including this one) are here:<br>
+	<li> All my talks (including this one) are at<br>
 	<a href="http://alex.gavruskin.com/talks">http://alex.gavruskin.com/talks</a><br><br>
-	<li> Preprints are here:<br>
+	<li> Preprints are at<br>
 	<a href="http://alex.gavruskin.com/publications">http://alex.gavruskin.com/publications</a><br><br>
 	<li> Software (and manuscripts in-progress) here:<br>
 	<a href="https://github.com/gavruskin">https://github.com/gavruskin</a><br><br>
