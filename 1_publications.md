@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 ---
 
-[My profile on Google Scholar](https://scholar.google.co.nz/citations?user=coK1R-kAAAAJ&amp;sortby=pubdate)
+[My profile on Google Scholar](https://scholar.google.com/citations?hl=en&user=coK1R-kAAAAJ&view_op=list_works&sortby=pubdate)
 
 - Inferring genetic interactions from comparative fitness data.
   With Kristina Crona, Devin Greene, and Niko Beerenwinkel.
