@@ -71,7 +71,7 @@ permalink: /talks/
 
 - [October 2009](http://www.math.cornell.edu/Colloquia/Logic/2009-10.html), Cornell University, Ithaca, NY, US. Seminar talk ([slides](https://sites.google.com/a/gavruskin.com/alexander/talks/2009CU.pdf?attredirects=0))
 
-- [Fall 2009](http://www.nd.edu/~mathwww/past_talks/october2009.shtml), University of Notre Dame, IN, US. Seminar talk ([slides](https://sites.google.com/a/gavruskin.com/alexander/talks/2009UND.pdf?attredirects=0))<br><br>
+- [Fall 2009](http://www.nd.edu/~mathwww/past_talks/october2009.shtml), University of Notre Dame, IN, US. Seminar talk ([slides](https://sites.google.com/a/gavruskin.com/alexander/talks/2009UND.pdf?attredirects=0))
 
 - [Summer 2009](http://lc2009.fmi.uni-sofia.bg/), Sofia. Contributed talk
 
