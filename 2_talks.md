@@ -40,7 +40,7 @@ permalink: /talks/
 
 - [October 2011](http://www.math.nsc.ru/conference/malmeet/11/Plenary_e.htm), Maltsev Meeting, Novosibirsk, Russia. Plenary talk ([slides](https://sites.google.com/a/gavruskin.com/alexander/talks/2011MM.pdf?attredirects=0))
 
-- [November 2007](http://math.nsc.ru/conference/malmeet/07/index.html), Maltsev Meeting, Novosibirsk, Russia. Plenary talk ([slides](https://sites.google.com/a/gavruskin.com/alexander/talks/2007MM.pdf?attredirects=0))<br><br>
+- [November 2007](http://math.nsc.ru/conference/malmeet/07/index.html), Maltsev Meeting, Novosibirsk, Russia. Plenary talk ([slides](https://sites.google.com/a/gavruskin.com/alexander/talks/2007MM.pdf?attredirects=0))
 
 
 ### Other talks
