@@ -36,6 +36,8 @@ permalink: /talks/
 
 ### Plenary and Special Session talks
 
+- [August 2017](https://www.siam.org/meetings/ag17/), SIAM Conference on Applied Algebraic Geometry, Polyhedral and Combinatorial Biology Symposium, Georgia Tech, Atlanta. Minisymposium talk [Polyhedral Complexes in Phylogenetics and Gene Interaction Studies](2017_SIAM_AG)
+
 - [June 2016](http://www.evolutionmeetings.org/special-talks.html), Evolution Meeting, Austin, Texas. Spotlight Session talk [Nearest neighbors of phylogenetic time-trees](2016_Evolution.pdf)
 
 - [October 2011](http://www.math.nsc.ru/conference/malmeet/11/Plenary_e.htm), Maltsev Meeting, Novosibirsk, Russia. Plenary talk ([slides](https://sites.google.com/a/gavruskin.com/alexander/talks/2011MM.pdf?attredirects=0))
