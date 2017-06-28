@@ -22,7 +22,7 @@ permalink: /blog/
 <hr style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:initial;border-color:initial;background-color:rgb(24,37,42);height:2px">
 <div style="text-align:left;display:block;margin-right:auto;margin-left:auto">
 <ul><li>``Climb the mountains and get their good tidings. Nature's peace will flow into you as sunshine flows into trees. The winds will blow their own freshness into you, and the storms their energy, while cares will drop off like autumn leaves.''—Our National Parks , 1901, page 56. John Muir <font size="2">28/05/15</font></li></ul>
-<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/a/gavruskin.com/alexander/blog/IMG_0102.PNG?attredirects=0" imageanchor="1"><img border="0" height="282" src="https://sites.google.com/a/gavruskin.com/alexander/blog/IMG_0102.PNG" width="320"></a></div>
+<div style="display:block;text-align:center;margin-right:auto;margin-left:auto"><a href="https://sites.google.com/a/gavruskin.com/alexander/blog/IMG_0102.PNG?attredirects=0" imageanchor="1"><img border="0" height="282" src="https://sites.google.com/a/gavruskin.com/alexander/blog/IMG_0102.PNG" width="320"></a></div><br>
 </div>
 </div>
 <div>
