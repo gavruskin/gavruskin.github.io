@@ -52,11 +52,6 @@ permalink: /blog/
 <div>
 <hr style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:initial;border-color:initial;background-color:rgb(24,37,42);height:2px">
 <div style="text-align:left;display:block;margin-right:auto;margin-left:auto">
-</div>
-</div>
-<div>
-<hr style="border-top-width:0px;border-right-width:0px;border-bottom-width:0px;border-left-width:0px;border-style:initial;border-color:initial;background-color:rgb(24,37,42);height:2px">
-<div style="text-align:left;display:block;margin-right:auto;margin-left:auto">
 <ul><li>``It is failure that guides evolution; perfection provides no incentive for improvement, and nothing is perfect.'' <font size="2">28/06/17</font></li></ul>
 </div>
 </div>
