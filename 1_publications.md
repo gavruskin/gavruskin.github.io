@@ -12,7 +12,7 @@ permalink: /publications/
 
 - The combinatorics of discrete time-trees: theory and open problems.
   With Chris Whidden and Erick Matsen.
-  <i>Journal of Mathematical Biology,</i> accepted, DOI: [10.1101/063362](http://dx.doi.org/10.1101/063362), 2016
+  <i>Journal of Mathematical Biology,</i> to appear, DOI: [10.1101/063362](http://dx.doi.org/10.1101/063362), 2016
   ([blog post by Erick](http://matsen.fredhutch.org/general/2016/07/11/discrete-time-tree.html))
 
 - The space of ultrametric phylogenetic trees.
