@@ -46,7 +46,7 @@
 	<br>
 	<br>
 	<h4>Output:</h4>
-	[Nice picture of a phylogenetic tree here]
+	<img data-src="images/hyrax_phylo_c.svg" width="60%" align="center">
 </section>
 
 <section>
@@ -74,7 +74,6 @@
 </section>
 
 <section>
-<section>
 	<div align="center">
 	  <img data-src="images/tauSpace.svg" width="55%">
 	</div>
@@ -85,15 +84,6 @@
 	<font size="4">Implementation: <a href="https://github.com/gavruskin/tauGeodesic">https://github.com/gavruskin/tauGeodesic</a></font>
 	<br>
 	<font size="2">Gavryushkin, Alex, and Alexei J. Drummond. "The space of ultrametric phylogenetic trees." <i>Journal of theoretical biology</i> 403 (2016): 197-208.</font>
-</section>
-
-<section>
-	<b>Theorem 1. Proof Idea</b>
-</section>
-
-<section>
-	<b>Theorem 2. Proof Idea</b>
-</section>
 </section>
 
 <section>
@@ -161,10 +151,8 @@
 	  <li> All commonly used models of sequence evolution assume independence between sites.
 	  <li class="fragment"> However, there is biological evidence that in many cases sites are not independent.
 	  <li class="fragment">Furthermore, this non-independence is used more and more widely, e.g. in drug discovery and design using synthetic lethal gene pairs.
-	  <br>
-	  <br>
-	  [Pretty picture to illustrate synthetic lethality, with skulls and things]
 	</ul>
+	<img class="fragment" data-src="images/synthetic_lethality_grey.svg">
 </section>
 
 <section>
@@ -271,15 +259,15 @@
 <section>
 	  <b>Theorem 1.</b> Let $f$ be a linear form with integer coefficients.
 	  Assume that the sum of the coefficients of $f$ is zero.
-	  Then a rank order implies that $f$ is not zero if and only if the rank order is mapped to a Dyck word by $\varphi^f$.
+	  Then a rank order $R$ implies that $f$ is not zero iff the signs of coefficients of $f$ ordered according to $R$ form a Dyck word.
 	<p class="fragment" data-fragment-index="1">
 	  <b>Theorem 2.</b> A partial order implies $f$-interaction exactly if all its total extensions do.
 	</p>
 	<p class="fragment" data-fragment-index="2">
-	  Call a map $g: O \to E$ monotonic with respect to a partial order $\prec$ if $x \prec g(x)$ for all $x$, where $O \sqcup E$ is a partition of $\prec$.
+	  Call a map $g: N \to P$ monotonic with respect to a partial order $\prec$ if $x \prec g(x)$ for all $x$, where $N \sqcup P$ is a partition of $\prec$.
 	</p>
 	<p class="fragment" data-fragment-index="3">
-	  <b><s>Conjecture 3.</s> Theorem 3.</b> A partial order $\prec$ implies positive (negative) interaction iff there exists a monotonic wrt $\prec$ bijection from $O$ to $E$ (from $E$ to $O$).
+	  <b><s>Conjecture 3.</s> Theorem 3.</b> A partial order $\prec$ implies positive (negative) interaction iff there exists a monotonic wrt $\prec$ bijection from $N$ to $P$ (from $P$ to $N$).
 	</p>
 </section>
 
@@ -338,6 +326,7 @@
 	<h4>Example: antibiotic resistance</h4>
 	<img class="stretch" data-src="images/Mira_2015_rank_order.svg">
 </section>
+</section>
 
 <section data-transition="slide-in fade-out">
 	<img class="stretch" data-src="images/tem_for_Niko.svg">
@@ -357,7 +346,6 @@
 
 <section>
 	<img class="stretch" data-src="images/tem_order_extension.svg">
-</section>
 </section>
 
 <section>
@@ -389,6 +377,23 @@
 
 <section>
 	<h3>References</h3>
+	<font size="5">
+	<ul>
+	  <li> Gavryushkin, Alex, and Alexei J. Drummond. "The space of ultrametric phylogenetic trees."
+	    <i>Journal of Theoretical Biology</i> 403 (2016): 197-208.<br><br>
+	  <li> Gavryushkin, Alex, Chris Whidden, and Frederick A. Matsen. "The combinatorics of discrete time-trees: theory and open problems."
+	    <i>Journal of Mathematical Biology,</i> in press (2017), doi: <a href="http://dx.doi.org/10.1101/063362">http://dx.doi.org/10.1101/063362</a>.<br><br>
+	  <li> Beerenwinkel, Niko, Lior Pachter, and Bernd Sturmfels.
+	    "Epistasis and shapes of fitness landscapes."
+	    <i>Statistica Sinica</i> (2007): 1317-1342.<br><br>
+	  <li> Crona, Kristina, Alex Gavryushkin, Devin Greene, and Niko Beerenwinkel.
+	    "Inferring genetic interaction from comparative fitness data."
+	    <i>bioRxiv,</i> doi: <a href="http://dx.doi.org/10.1101/137372">http://dx.doi.org/10.1101/137372</a><br><br>
+	  <li> Lienkaemper, Caitlin, James Drain, Lisa Lamberti, and Alex Gavryushkin.
+	    "Inferring genetic interactions from partial fitness orders."
+	    <i>bioRxiv,</i> to appear this month.
+	</ul>
+	</font>
 </section>
 
 <section>
