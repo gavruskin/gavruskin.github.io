@@ -137,7 +137,7 @@
 	<br>
 	<br>
 	<p class="fragment" data-fragment-index="1">
-	  <b>Question 2.</b> Is the ranked NNI graph-distance (as above) polynomial-time computable.
+	  <b>Question 2.</b> Is the ranked NNI graph-distance (as above) polynomial-time computable?
 	</p>
 	<br>
 	<p style="font-size:10pt">
@@ -242,32 +242,34 @@
 </section>
 
 <section>
-	<h3>Results at a glance</h3>
-	<ul>
-	  <li> We provide a complete characterization of <i>partial fitness orders</i> that imply circuit interaction (think epistasis).
-	  <li> Partial fitness orders arise in competition-like experiments and include:
-	    <ul>
-	      <li> Rank orders
-	      <li> Mutation fitness graphs
-	    </ul>
-	</ul>
+	<h3>When partial order implies interaction?</h3>
 	<br>
-	<br>
-	<font size="4">Inferring Genetic Interactions From Comparative Fitness Data, <a href="https://doi.org/10.1101/137372"><i>bioRxiv,</i></a> 2017</font>
+	We say that a partial order $\prec$ on the set of genotypes $\mathcal G = \{g_1,\ldots, g_m\}$ implies positive $f$-interaction if
+	\[
+	f(w_{g_1},\ldots, w_{g_m}) > 0
+	\]
+	whenever the genotypes $\mathcal G$ are ordered according to $\prec$.
 </section>
 
 <section>
 	  <b>Theorem 1.</b> Let $f$ be a linear form with integer coefficients.
 	  Assume that the sum of the coefficients of $f$ is zero.
-	  Then a rank order $R$ implies that $f$ is not zero iff the signs of coefficients of $f$ ordered according to $R$ form a Dyck word.
+	  Then a linear order $L$ implies $f$-interaction iff the signs of coefficients of $f$ ordered according to $L$ form a Dyck word.
 	<p class="fragment" data-fragment-index="1">
 	  <b>Theorem 2.</b> A partial order implies $f$-interaction exactly if all its total extensions do.
 	</p>
 	<p class="fragment" data-fragment-index="2">
-	  Call a map $g: N \to P$ monotonic with respect to a partial order $\prec$ if $x \prec g(x)$ for all $x$, where $N \sqcup P$ is a partition of $\prec$.
+	  Let $N$ be the set of genotypes with negative coefficients in $f$ and $P$ with positive.
+	  We can think of a partial order $\prec$ as of a directed bipartite graph $G$ on $N \cup P$.
 	</p>
 	<p class="fragment" data-fragment-index="3">
-	  <b><s>Conjecture 3.</s> Theorem 3.</b> A partial order $\prec$ implies positive (negative) interaction iff there exists a monotonic wrt $\prec$ bijection from $N$ to $P$ (from $P$ to $N$).
+	  <b><s>Conjecture 3.</s> Theorem 3.</b> A partial order $\prec$ implies interaction iff the graph $G$ has a perfect matching.
+	</p>
+	<p class="fragment" data-fragment-index="3">
+	<font size="3">
+	Crona, Gavryushkin, Greene, and Beerenwinkel. Inferring genetic interactions from comparative fitness data. <i>bioRxiv.</i> <i>eLife,</i> under revision.<br>
+	Lienkaemper, Drain, Lamberti, and Gavryushkin. Inferring genetic interactions from partial fitness orders. <i>bioRxiv,</i> to appear this month.
+	</font>
 	</p>
 </section>
 
@@ -288,7 +290,6 @@
 </section>
 
 <section>
-<section>
 	<h3>Applications</h3>
 	<ul>
 	<li> <p>HIV-1</p>
@@ -302,30 +303,6 @@
 	Methodologically, this allows us to advise further measurements (experiments) for incomplete data sets, thus reducing the number of potential experiments significantly.
 	</p>
 	</div>
-</section>
-
-<section data-transition="slide-in fade-out">
-	<h4>Example: antibiotic resistance</h4>
-	<img class="stretch" data-src="images/Mira_2015_genotypes.svg">
-	<div align="left">
-	<font size="3">Mira et al. <i>PLOS ONE,</i> 2015</font>
-	</div>
-</section>
-
-<section data-transition="fade-in fade-out">
-	<h4>Example: antibiotic resistance</h4>
-	<img class="stretch" data-src="images/Mira_2015_antibiotics.svg">
-</section>
-
-<section data-transition="fade-in fade-out">
-	<h4>Example: antibiotic resistance</h4>
-	<img class="stretch" data-src="images/Mira_2015_fitness_summary.svg">
-</section>
-
-<section data-transition="fade-in slide-out">
-	<h4>Example: antibiotic resistance</h4>
-	<img class="stretch" data-src="images/Mira_2015_rank_order.svg">
-</section>
 </section>
 
 <section data-transition="slide-in fade-out">
@@ -346,20 +323,7 @@
 
 <section>
 	<img class="stretch" data-src="images/tem_order_extension.svg">
-</section>
-
-<section>
-	<h3>Results in more detail</h3>
-	Efficient methods for:
-	<ul>
-	<li> Circuit interaction inference (including epistasis and three-way interaction) for total orders
-	<li> Complete analysis of partial orders (including mutation graphs) with "distance to interaction" inference
-	<li> Suggestions for possible completions in case of missing data and/or high uncertainty
-	</ul>
-	<br>
-	<br>
-	Software (pre-release stage):<br>
-	<a href="https://github.com/gavruskin/fitlands">https://github.com/gavruskin/fitlands</a>
+	$\small f(\bar w) = w_{000} + w_{011} + w_{101} + w_{110} - w_{001} - w_{010} - w_{100} - w_{111}$
 </section>
 
 <section>
@@ -368,7 +332,7 @@
 	<ul>
 	<li> All my talks (including this one) are at<br>
 	<a href="http://alex.gavruskin.com/talks">http://alex.gavruskin.com/talks</a><br><br>
-	<li> Preprints are at<br>
+	<li> Papers are at<br>
 	<a href="http://alex.gavruskin.com/publications">http://alex.gavruskin.com/publications</a><br><br>
 	<li> Software (and manuscripts in-progress) here:<br>
 	<a href="https://github.com/gavruskin">https://github.com/gavruskin</a><br><br>
