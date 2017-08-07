@@ -5,4 +5,6 @@ permalink: /upcoming-meetings/
 ---
 
 ## Meetings I plan to attend
-- [SIAM AG 2017](https://www.siam.org/meetings/ag17/) at Georgia Tech on July 31–August 4. My talk is on August 1 at 10:30.
+
+Apart from a few short trips in Switzerland and Germany, I'm not planning any scientific events in 2017.
+My 2018 will be an exciting year with many visit, including a biomathematics gathering I'm planning to organize and host, so stay tuned!
