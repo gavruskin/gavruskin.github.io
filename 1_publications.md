@@ -6,9 +6,13 @@ permalink: /publications/
 
 [My profile on Google Scholar](https://scholar.google.com/citations?hl=en&user=coK1R-kAAAAJ&view_op=list_works&sortby=pubdate)
 
+- The geometry of partial fitness orders and an efficient method for detecting genetic interactions.
+  With Caitlin Lienkaemper, Lisa Lamberti, James Drain, and Niko Beerenwinkel.
+  <i>bioRxiv,</i> DOI: [10.1101/180976](https://doi.org/10.1101/180976), 2017
+
 - Inferring genetic interactions from comparative fitness data.
   With Kristina Crona, Devin Greene, and Niko Beerenwinkel.
-  <i>eLife</i>, under revision, DOI: [10.1101/137372](https://doi.org/10.1101/137372), 2017
+  <i>eLife,</i> under revision, DOI: [10.1101/137372](https://doi.org/10.1101/137372), 2017
 
 - The combinatorics of discrete time-trees: theory and open problems.
   With Chris Whidden and Erick Matsen.
