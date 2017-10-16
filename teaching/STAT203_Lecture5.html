@@ -42,12 +42,101 @@
 	<ul>
 	  <li> All slides are online at <ul><a href="http://alex.gavruskin.com/teaching/">http://alex.gavruskin.com/teaching/</a></ul>
 	  <li> You can follow this lecture:<ul><a href="http://alex.gavruskin.com/teaching/STAT203_Lecture5">http://alex.gavruskin.com/teaching/STAT203_Lecture5</a></ul>
-	  <li> Lecture notes with embedded runnable code are at <ul><a href="http://alex.gavruskin.com/teaching/">http://alex.gavruskin.com/teaching/STAT203_Lecture_Notes</a></ul>
+	  <li> Lecture notes with embedded runnable code are<font color="red">*</font> at <ul><a href="http://alex.gavruskin.com/teaching/">http://alex.gavruskin.com/teaching/STAT203_Lecture_Notes</a></ul>
 	</ul>
+	<p style="line-height:0.7">
+	<font size="4">
+	Some of the figures in this presentation are taken from "An Introduction to Statistical Learning, with applications in R" (Springer, 2013) with permission from the authors: G. James, D. Witten, T. Hastie and R. Tibshirani.
+	</font>
+	</p>
 	<br>
 	<br>
 	<br>
-	<font color="red" size="3">[Not quite. The lecture notes will be posted only before the actual lecture.]</font>
+	<font color="red" size="3">[*Not quite. The lecture notes will be posted only before the actual lecture.]</font>
+</section>
+
+<section>
+	<h3>Data <font color="grey">Hitters</font></h3>
+	<img data-src="images/data_hitters.png">
+	<h3>Problem</h3>
+	<p align="center">
+	Can we predict player's salary?<br>
+	What drives player's salary the most?
+	</p>
+	<br>
+	<font color="red" size="3">[In the actual lecture some other data set will be used, more relevant to the students.]</font>
+</section>
+
+<section>
+	<p align="center">
+	<img width="60%" data-src="images/hitters_regression_region.svg">
+	</p>
+	<p class="fragment" align="center">
+	<font size="5"> Can be seen as fitting a piecewise-constant model.</font>
+	</p>
+</section>
+
+<section>
+	<p align="center">
+	<img width="60%" data-src="images/hitters_regression_tree.svg">
+	</p>
+</section>
+
+<section>
+	<h3>This week's tutorials</h3>
+	<ul>
+	  <li> Predict NZ house prices
+	  <li> Predict cancer patients' life length expectancy
+	</ul>
+</section>
+
+<section>
+	<p align="center">
+	<img width="30%" data-src="images/hitters_regression_tree.svg">
+	</p>
+	<img data-src="images/data_hitters.png">
+</section>
+
+<section>
+	Things about minimising RSS and full trees.
+</section>
+
+<section>
+	<p align="center">
+	<img width="75%" data-src="images/hitters_regression_tree_full.svg">
+	</p>
+</section>
+
+<section>
+  <section>
+	<h3>Dangers?</h3>
+	<ul>
+	  <li class="fragment"> Overfitting</li>
+	  <li class="fragment"> Missing out important predictors
+		<p class=fragment>
+		(Similar to the bias-variance trade-off)
+		<img width="50%" data-src="images/hitters_cross_validation_graph.svg">
+		</p>
+	  <li class="fragment"> Computationally infeasible to fit all trees!
+	</ul>
+  </section>
+
+  <section>
+	<h3>Why not fitting all trees?</h3>
+	<ul>
+	  <li> The number of full trees, as well as the number of subtrees of a full tree is bounded from below by $2^n$.
+	  <li> $2^n$ is already way too much
+	  <li> Assuming it takes one second to fit a tree: [$2^n$ for various $n$ here]
+	</ul>
+  </section>
+</section>
+
+<section>
+	<h3>This week's tutorials</h3>
+	<ul>
+	  <li> Predict the 2017 general election preferences
+	  <li> Predict tumour recurrence in patients treated for melanoma
+	</ul>
 </section>
 
 <section data-transition="fade-in" data-autoslide="1000" data-background-image="../talks/images/ethKuppel.svg">
