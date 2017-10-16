@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Introduction to decision trees - Alex Gavryushkin</title>
+	<meta name="author" content="Alex Gavryushkin">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<link rel="stylesheet" href="../talks/css/reveal.css">
+	<link rel="stylesheet" href="../talks/css/theme/simple_gavruskin_left.css" id="theme">
+	<link rel="stylesheet" href="../talks/lib/css/zenburn.css">
+	<!--[if lt IE 9]>
+	<script src="../talks/lib/js/html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+<div class="reveal">
+<div class="slides">
+
+<section data-background-image="../talks/images/ETH_image_covered_completely_non_transparent.svg">
+<div align="center">
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<h4>Lecture 5<br>
+	Introduction to classification and
+	regression trees</h4>
+	<font size="6">Alex Gavryushkin</font><br>
+	<font size="5">31 October 2017</font>
+</div>
+</section>
+
+<section>
+	<h3>Reminder</h3>
+	<ul>
+	  <li> All slides are online at <ul><a href="http://alex.gavruskin.com/teaching/">http://alex.gavruskin.com/teaching/</a></ul>
+	  <li> You can follow this lecture:<ul><a href="http://alex.gavruskin.com/teaching/STAT203_Lecture5">http://alex.gavruskin.com/teaching/STAT203_Lecture5</a></ul>
+	  <li> Lecture notes with embedded runnable code are at <ul><a href="http://alex.gavruskin.com/teaching/">http://alex.gavruskin.com/teaching/STAT203_Lecture_Notes</a></ul>
+	</ul>
+	<br>
+	<br>
+	<br>
+	<font color="red" size="3">[Not quite. The lecture notes will be posted only before the actual lecture.]</font>
+</section>
+
+<section data-transition="fade-in" data-autoslide="1000" data-background-image="../talks/images/ethKuppel.svg">
+	<h3>
+	Thanks for your attention!<br>
+	<br>
+	<br>
+	<p class="fragment slide-in" data-autoslide="1000">and stay tuned</p>
+	</h3>
+</section>
+
+</div>
+</div>
+
+<script src="../talks/lib/js/head.min.js"></script>
+<script src="../talks/js/reveal.js"></script>
+<script>
+  Reveal.initialize({
+    dependencies: [
+	// Speaker notes
+	{ src: '../talks/plugin/notes/notes.js', async: true },
+        // Interpret Markdown in <section> elements
+        { src: '../talks/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: '../talks/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        // MathJax
+        { src: '../talks/plugin/math/math.js', async: true }
+    ]
+  });
+  Reveal.configure({ slideNumber: true });
+</script>
+</body>
+</html>
