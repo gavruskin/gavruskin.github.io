@@ -9,7 +9,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 	<link rel="stylesheet" href="../talks/css/reveal.css">
-	<link rel="stylesheet" href="../talks/css/theme/simple_gavruskin_left.css" id="theme">
+	<link rel="stylesheet" href="../talks/css/theme/simple_gavruskin.css" id="theme">
 	<link rel="stylesheet" href="../talks/lib/css/zenburn.css">
 	<!--[if lt IE 9]>
 	<script src="../talks/lib/js/html5shiv.js"></script>
@@ -21,7 +21,6 @@
 <div class="slides">
 
 <section data-background-image="../talks/images/ETH_image_covered_completely_non_transparent.svg">
-<div align="center">
 	<br>
 	<br>
 	<br>
@@ -34,7 +33,6 @@
 	regression trees</h4>
 	<font size="6">Alex Gavryushkin</font><br>
 	<font size="5">31 October 2017</font>
-</div>
 </section>
 
 <section>
@@ -46,7 +44,7 @@
 	</ul>
 	<p style="line-height:0.7">
 	<font size="4">
-	Some of the figures in this presentation are taken from "An Introduction to Statistical Learning, with applications in R" (Springer, 2013) with permission from the authors: G. James, D. Witten, T. Hastie and R. Tibshirani.
+	Some of the figures in this presentation are taken from "An Introduction to Statistical Learning, with applications in R" (Springer, 2013) with permission from the authors: G. James, D. Witten, T. Hastie, and R. Tibshirani.
 	</font>
 	</p>
 	<br>
@@ -59,27 +57,25 @@
 	<h3>Data <font color="grey">Hitters</font></h3>
 	<img data-src="images/data_hitters.png">
 	<h3>Problem</h3>
-	<p align="center">
 	Can we predict player's salary?<br>
 	What drives player's salary the most?
-	</p>
+	<br>
+	<br>
 	<br>
 	<font color="red" size="3">[In the actual lecture some other data set will be used, more relevant to the students.]</font>
 </section>
 
 <section>
-	<p align="center">
-	<img width="60%" data-src="images/hitters_regression_region.svg">
-	</p>
-	<p class="fragment" align="center">
-	<font size="5"> Can be seen as fitting a piecewise-constant model.</font>
+	<img width="50%" data-src="images/hitters_regression_region.svg">
+	<p class="fragment">
+	<font size="5"> Can be seen as fitting a piecewise-constant model.
+	The goal is to minimise RSS<br><br>
+	$$\sum_{i \in R_1}(y_i - \hat y _{R_1})^2 + \sum_{i \in R_2}(y_i - \hat y _{R_2})^2 + \sum_{i \in R_3}(y_i - \hat y _{R_3})^2$$</font>
 	</p>
 </section>
 
 <section>
-	<p align="center">
 	<img width="60%" data-src="images/hitters_regression_tree.svg">
-	</p>
 </section>
 
 <section>
@@ -91,43 +87,112 @@
 </section>
 
 <section>
-	<p align="center">
 	<img width="30%" data-src="images/hitters_regression_tree.svg">
-	</p>
 	<img data-src="images/data_hitters.png">
 </section>
 
 <section>
-	Things about minimising RSS and full trees.
+  <section>
+	<p align="left">
+	  In reality, we don't know what the most significant predictors are, so we need to find them.
+	</p>
+	<p class="fragment" align="left">
+	  We have to consider all predictors and all possible values of the cutpoint for each of the predictors.
+	</p>
+	<p class="fragment">
+	  <img width="20%" data-src="images/computer_mad.svg"><br>
+	  ?
+	</p>
+  </section>
+  <section align="left">
+	<h3>Details</h3>
+	For any $j$ and $s$, we define the pair of half-planes<br><br>
+	$$
+	R_1(j, s) = \{X \mid X_j < s\}
+	$$
+	and
+	$$
+	R_2(j, s) = \{X \mid X_j \ge s\}
+	$$<br>
+	and we seek the value of $j$ and $s$ that minimise the equation<br><br>
+	$$
+	\sum_{i:~x_i \in R_1(j, s)}(y_i - \hat y_{R_1})^2 + \sum_{i:~x_i \in R_2(j, s)}(y_i - \hat y_{R_2})^2
+	$$
+  </section>
 </section>
 
-<section>
-	<p align="center">
-	<img width="75%" data-src="images/hitters_regression_tree_full.svg">
-	</p>
+<section data-transition="slide-in fade-out">
+	  <img width="75%" data-src="images/hitters_regression_tree_full.svg">
+</section>
+
+<section data-transition="fade-in slide-out">
+	  <img width="50%" data-src="images/hitters_regression_tree_full.svg"><br>
+	  <img width="10%" data-src="images/computer_mad.svg"><br>
+	  !
 </section>
 
 <section>
   <section>
 	<h3>Dangers?</h3>
 	<ul>
-	  <li class="fragment"> Overfitting</li>
-	  <li class="fragment"> Missing out important predictors
-		<p class=fragment>
-		(Similar to the bias-variance trade-off)
-		<img width="50%" data-src="images/hitters_cross_validation_graph.svg">
-		</p>
-	  <li class="fragment"> Computationally infeasible to fit all trees!
+	  <li class="fragment" data-fragment-index="1"> Overfitting</li>
+	  <li class="fragment" data-fragment-index="2"> Missing out important predictors
 	</ul>
+	<p class="fragment" data-fragment-index="2">
+	  (Similar to the bias-variance trade-off)
+	</p>
+	<img width="60%" data-src="images/hitters_cross_validation_graph.svg">
   </section>
 
   <section>
 	<h3>Why not fitting all trees?</h3>
 	<ul>
 	  <li> The number of full trees, as well as the number of subtrees of a full tree is bounded from below by $2^n$.
-	  <li> $2^n$ is already way too much
-	  <li> Assuming it takes one second to fit a tree: [$2^n$ for various $n$ here]
+	  <li class="fragment" data-fragment-index="1"> $2^n$ is already way too much.
+	    Assuming it takes one second to fit a tree:
 	</ul>
+	<table class="fragment" data-fragment-index="1">
+	  <tr>
+	    <td>
+	      17 minutes
+	    </td>
+	    <td>
+	      on 10 predictors
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>
+	      12 days
+	    </td>
+	    <td>
+	      on 20 predictors
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>
+	      34 years
+	    </td>
+	    <td>
+	      on 30 predictors
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>
+	      35 million years
+	    </td>
+	    <td>
+	      on 50 predictors
+	    </td>
+	  </tr>
+	  <tr>
+	    <td>
+	      $4 \times 10^{13}$ billion years
+	    </td>
+	    <td>
+	      on 100 predictors
+	    </td>
+	  </tr>
+	</table>
   </section>
 </section>
 
