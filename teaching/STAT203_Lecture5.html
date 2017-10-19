@@ -54,6 +54,15 @@
 </section>
 
 <section>
+	<h3>Motivation slide</h3>
+	"Our Masters programme is in great demand.
+	Many scientists are very capable of analysing their data by themselves." &mdash; Nicolai Meinshausen, Professor of Statistics, ETH Zurich
+	<img class="stretch" data-src="images/Meinshausen.jpg"><br>
+	<font size="2">Image: ETH Zurich</font><br>
+	<font color="red" size="3">[I use these to share recent news in the area and to provide further motivation for the students to study the subject.]</font>
+</section>
+
+<section>
 	<h3>Data <font color="grey">Hitters</font></h3>
 	<img data-src="images/data_hitters.png">
 	<h3>Problem</h3>
@@ -84,6 +93,14 @@
 	  <li> Predict NZ house prices
 	  <li> Predict cancer patients' life length expectancy
 	</ul>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<font color="red" size="3">[Also shows the wide range of relevant applications.]</font>
 </section>
 
 <section>
@@ -191,6 +208,55 @@
 	    <td>
 	      on 100 predictors
 	    </td>
+	  </tr>
+	</table>
+  </section>
+
+  <section>
+	<h3>Cost complexity pruning</h3>
+	Instead of considering every possible subtree and RSS, minimise
+	$$
+	\sum_{m = 1}^{|T|}\sum_{i:~x_i \in R_m}(y_i - \hat y_{R_m})^2 + \alpha |T|
+	$$
+	<br>
+	(same idea as in lasso)
+	<br>
+	<br>
+	Importantly, computing subtrees $T$ as a function of $\alpha$ is easy!
+  </section>
+</section>
+
+<section>
+	<h3>Data <font color="grey">Heart</font></h3>
+	<img width="65%" data-src="images/data_heart.png">
+	<h3>Problem</h3>
+	Can we predict whether the patient has heart disease?
+</section>
+
+<section data-transition="slide-in fade-out">
+	<img class="stretch" data-src="images/heart_trees_validation.svg">
+</section>
+
+<section data-transition="fade-in slide-out">
+  <section>
+	<img class="stretch" data-src="images/heart_trees_validation_highlight.svg">
+  </section>
+
+  <section>
+	<h3>Error functions</h3>
+	<br>
+	<table>
+	  <tr>
+	    <td>Classification error rate</td>
+	    <td>$E = 1 - \max\limits_k(\hat p_{mk})$</td>
+	  </tr>
+	  <tr>
+	    <td>Gini index</td>
+	    <td>$G = \sum\limits_{k=1}^{K}\hat p_{mk}(1 - \hat p_{mk})$</td>
+	  </tr>
+	  <tr>
+	    <td>Entropy</td>
+	    <td>$D = -\sum\limits_{k=1}^K\hat p_{mk}\log\hat p_{mk}$</td>
 	  </tr>
 	</table>
   </section>
