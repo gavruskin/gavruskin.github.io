@@ -55,10 +55,10 @@
 
 <section>
 	<h3>Motivation slide</h3>
-	"Our Masters programme is in great demand.
-	Many scientists are very capable of analysing their data by themselves." &mdash; Nicolai Meinshausen, Professor of Statistics, ETH Zurich
+	"Many scientists are very capable of analysing their data by themselves." &mdash; Nicolai Meinshausen, Professor of Statistics, ETH Zurich<br>
 	<img class="stretch" data-src="images/Meinshausen.jpg"><br>
-	<font size="2">Image: ETH Zurich</font><br>
+	<font size="2">Image: ETH Zurich.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.ethz.ch/en/news-and-events/eth-news/news/2017/10/interview-nicolai-meinshausen.html"><u>Complete interview "Our Master's programme is in great demand".</u></a></font><br>
+	
 	<font color="red" size="3">[I use these to share recent news in the area and to provide further motivation for the students to study the subject.]</font>
 </section>
 
@@ -75,16 +75,14 @@
 </section>
 
 <section>
-	<img width="50%" data-src="images/hitters_regression_region.svg">
-	<p class="fragment">
-	<font size="5"> Can be seen as fitting a piecewise-constant model.
-	The goal is to minimise RSS<br><br>
-	$$\sum_{i \in R_1}(y_i - \hat y _{R_1})^2 + \sum_{i \in R_2}(y_i - \hat y _{R_2})^2 + \sum_{i \in R_3}(y_i - \hat y _{R_3})^2$$</font>
-	</p>
+	<img width="60%" data-src="images/hitters_regression_tree.svg">
 </section>
 
 <section>
-	<img width="60%" data-src="images/hitters_regression_tree.svg">
+	<img width="50%" data-src="images/hitters_regression_region.svg"><br>
+	<font size="5"> Can be seen as fitting a piecewise-constant model.
+	The goal is to minimise RSS<br><br>
+	$$\sum_{i \in R_1}(y_i - \hat y _{R_1})^2 + \sum_{i \in R_2}(y_i - \hat y _{R_2})^2 + \sum_{i \in R_3}(y_i - \hat y _{R_3})^2$$</font>
 </section>
 
 <section>
@@ -142,23 +140,23 @@
 	  <img width="75%" data-src="images/hitters_regression_tree_full.svg">
 </section>
 
-<section data-transition="fade-in slide-out">
-	  <img width="50%" data-src="images/hitters_regression_tree_full.svg"><br>
-	  <img width="10%" data-src="images/computer_mad.svg"><br>
-	  !
-</section>
-
 <section>
-  <section>
 	<h3>Dangers?</h3>
 	<ul>
 	  <li class="fragment" data-fragment-index="1"> Overfitting</li>
 	  <li class="fragment" data-fragment-index="2"> Missing out important predictors
 	</ul>
 	<p class="fragment" data-fragment-index="2">
-	  (Similar to the bias-variance trade-off)
+	  (The bias-variance trade-off)
 	</p>
 	<img width="60%" data-src="images/hitters_cross_validation_graph.svg">
+</section>
+
+<section>
+  <section data-transition="fade-in slide-out">
+	  <img width="50%" data-src="images/hitters_regression_tree_full.svg"><br>
+	  <img width="10%" data-src="images/computer_mad.svg"><br>
+	  !
   </section>
 
   <section>
