@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -37,12 +37,12 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1920"
-     inkscape:window-height="1200"
+     inkscape:window-height="1080"
      id="namedview3513"
      showgrid="false"
-     inkscape:zoom="1.444714"
-     inkscape:cx="360.625"
-     inkscape:cy="360.625"
+     inkscape:zoom="0.722357"
+     inkscape:cx="462.53294"
+     inkscape:cy="187.74446"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -206,234 +206,240 @@
     </g>
   </defs>
   <g
-     id="surface2130">
-    <g
-       style="fill:rgb(0%,39.607239%,4.705811%);fill-opacity:1;"
-       id="g3419">
-      <use
-         xlink:href="#glyph0-1"
-         x="224.64"
-         y="52.438"
-         id="use3421" />
-    </g>
-    <path
-       style="fill:none;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,39.607239%,4.705811%);stroke-opacity:1;stroke-miterlimit:10;"
-       d="M 462.226562 1462.421875 L 462.226562 5307.226562 L 4088.945312 5307.226562 L 4088.945312 1462.421875 "
-       transform="matrix(0.1,0,0,-0.1,0,577)"
-       id="path3423" />
-    <path
-       style="fill:none;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,39.607239%,4.705811%);stroke-opacity:1;stroke-miterlimit:10;"
-       d="M 4088.945312 1462.421875 L 4088.945312 5307.226562 L 462.226562 5307.226562 L 462.226562 1462.421875 "
-       transform="matrix(0.1,0,0,-0.1,0,577)"
-       id="path3425" />
-    <path
-       style="fill:none;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,39.607239%,4.705811%);stroke-opacity:1;stroke-miterlimit:10;"
-       d="M 2880 471.679688 L 2880 1462.421875 L 5297.773438 1462.421875 L 5297.773438 471.679688 "
-       transform="matrix(0.1,0,0,-0.1,0,577)"
-       id="path3427" />
-    <path
-       style="fill:none;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(0%,39.607239%,4.705811%);stroke-opacity:1;stroke-miterlimit:10;"
-       d="M 5297.773438 471.679688 L 5297.773438 1462.421875 L 2880 1462.421875 L 2880 471.679688 "
-       transform="matrix(0.1,0,0,-0.1,0,577)"
-       id="path3429" />
-    <g
-       style="fill:rgb(0%,0%,0%);fill-opacity:1;"
-       id="g3431">
-      <use
-         xlink:href="#glyph0-2"
-         x="169.968"
-         y="40.662"
-         id="use3433" />
-    </g>
-    <g
-       style="fill:rgb(0%,0%,0%);fill-opacity:1;"
-       id="g3435">
-      <use
-         xlink:href="#glyph0-3"
-         x="181.772688"
-         y="40.662"
-         id="use3437" />
-      <use
-         xlink:href="#glyph0-4"
-         x="194.227088"
-         y="40.662"
-         id="use3439" />
-      <use
-         xlink:href="#glyph0-5"
-         x="206.681488"
-         y="40.662"
-         id="use3441" />
-      <use
-         xlink:href="#glyph0-6"
-         x="214.140688"
-         y="40.662"
-         id="use3443" />
-      <use
-         xlink:href="#glyph0-7"
-         x="225.340688"
-         y="40.662"
-         id="use3445" />
-      <use
-         xlink:href="#glyph0-8"
-         x="231.567888"
-         y="40.662"
-         id="use3447" />
-      <use
-         xlink:href="#glyph0-7"
-         x="244.649488"
-         y="40.662"
-         id="use3449" />
-      <use
-         xlink:href="#glyph0-9"
-         x="250.876688"
-         y="40.662"
-         id="use3451" />
-      <use
-         xlink:href="#glyph0-10"
-         x="263.331088"
-         y="40.662"
-         id="use3453" />
-      <use
-         xlink:href="#glyph0-11"
-         x="269.558288"
-         y="40.662"
-         id="use3455" />
-    </g>
-    <g
-       style="fill:rgb(0%,0%,0%);fill-opacity:1;"
-       id="g3457">
-      <use
-         xlink:href="#glyph0-12"
-         x="348.82"
-         y="425.142"
-         id="use3459" />
-      <use
-         xlink:href="#glyph0-13"
-         x="364.9928"
-         y="425.142"
-         id="use3461" />
-      <use
-         xlink:href="#glyph0-14"
-         x="369.9656"
-         y="425.142"
-         id="use3463" />
-      <use
-         xlink:href="#glyph0-6"
-         x="376.1928"
-         y="425.142"
-         id="use3465" />
-      <use
-         xlink:href="#glyph0-7"
-         x="387.3928"
-         y="425.142"
-         id="use3467" />
-      <use
-         xlink:href="#glyph0-8"
-         x="393.62"
-         y="425.142"
-         id="use3469" />
-      <use
-         xlink:href="#glyph0-7"
-         x="406.7016"
-         y="425.142"
-         id="use3471" />
-      <use
-         xlink:href="#glyph0-15"
-         x="412.9288"
-         y="425.142"
-         id="use3473" />
-      <use
-         xlink:href="#glyph0-15"
-         x="425.3832"
-         y="425.142"
-         id="use3475" />
-      <use
-         xlink:href="#glyph0-16"
-         x="437.8376"
-         y="425.142"
-         id="use3477" />
-      <use
-         xlink:href="#glyph0-10"
-         x="450.292"
-         y="425.142"
-         id="use3479" />
-      <use
-         xlink:href="#glyph0-11"
-         x="456.5192"
-         y="425.142"
-         id="use3481" />
-    </g>
-    <g
-       style="fill:rgb(0%,0%,0%);fill-opacity:1;"
-       id="g3483">
-      <use
-         xlink:href="#glyph0-11"
-         x="24.429"
-         y="451.8463"
-         id="use3485" />
-      <use
-         xlink:href="#glyph0-10"
-         x="36.8834"
-         y="451.8463"
-         id="use3487" />
-      <use
-         xlink:href="#glyph0-15"
-         x="43.1106"
-         y="451.8463"
-         id="use3489" />
-      <use
-         xlink:href="#glyph0-15"
-         x="55.565"
-         y="451.8463"
-         id="use3491" />
-    </g>
-    <g
-       style="fill:rgb(0%,0%,0%);fill-opacity:1;"
-       id="g3493">
-      <use
-         xlink:href="#glyph0-17"
-         x="266.205"
-         y="550.9342"
-         id="use3495" />
-      <use
-         xlink:href="#glyph0-10"
-         x="278.6594"
-         y="550.9342"
-         id="use3497" />
-      <use
-         xlink:href="#glyph0-18"
-         x="284.8866"
-         y="550.9342"
-         id="use3499" />
-      <use
-         xlink:href="#glyph0-18"
-         x="297.341"
-         y="550.9342"
-         id="use3501" />
-    </g>
-    <g
-       style="fill:rgb(0%,0%,0%);fill-opacity:1;"
-       id="g3503">
-      <use
-         xlink:href="#glyph0-17"
-         x="507.981192"
-         y="550.9342"
-         id="use3505" />
-      <use
-         xlink:href="#glyph0-10"
-         x="520.435592"
-         y="550.9342"
-         id="use3507" />
-      <use
-         xlink:href="#glyph0-16"
-         x="526.662792"
-         y="550.9342"
-         id="use3509" />
-      <use
-         xlink:href="#glyph0-9"
-         x="539.117192"
-         y="550.9342"
-         id="use3511" />
-    </g>
+     id="g3419"
+     style="fill:#00630a;fill-opacity:1">
+    <use
+       height="100%"
+       width="100%"
+       id="use3421"
+       y="52.438"
+       x="224.64"
+       xlink:href="#glyph0-1" />
   </g>
+  <path
+     inkscape:connector-curvature="0"
+     id="path3423"
+     d="m 46.222656,430.75781 0,-384.48047 362.671874,0 0,384.48047"
+     style="fill:none;stroke:#00630a;stroke-width:1.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3425"
+     d="m 408.89453,430.75781 0,-384.48047 -362.671874,0 0,384.48047"
+     style="fill:none;stroke:#00630a;stroke-width:1.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3427"
+     d="m 288,529.83203 0,-99.07422 241.77734,0 0,99.07422"
+     style="fill:none;stroke:#00630a;stroke-width:1.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1" />
+  <path
+     inkscape:connector-curvature="0"
+     id="path3429"
+     d="m 529.77734,529.83203 0,-99.07422 -241.77734,0 0,99.07422"
+     style="fill:none;stroke:#00630a;stroke-width:1.20000005;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1" />
+  <g
+     id="g3431"
+     style="fill:#000000;fill-opacity:1">
+    <use
+       height="100%"
+       width="100%"
+       id="use3433"
+       y="40.661999"
+       x="169.968"
+       xlink:href="#glyph0-2" />
+  </g>
+  <g
+     id="g3435"
+     style="fill:#000000;fill-opacity:1">
+    <use
+       height="100%"
+       width="100%"
+       id="use3437"
+       y="40.661999"
+       x="181.77269"
+       xlink:href="#glyph0-3" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3439"
+       y="40.661999"
+       x="194.22708"
+       xlink:href="#glyph0-4" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3441"
+       y="40.661999"
+       x="206.68149"
+       xlink:href="#glyph0-5" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3443"
+       y="40.661999"
+       x="214.14069"
+       xlink:href="#glyph0-6" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3445"
+       y="40.661999"
+       x="225.34068"
+       xlink:href="#glyph0-7" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3447"
+       y="40.661999"
+       x="231.56789"
+       xlink:href="#glyph0-8" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3449"
+       y="40.661999"
+       x="244.64949"
+       xlink:href="#glyph0-7" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3451"
+       y="40.661999"
+       x="250.87669"
+       xlink:href="#glyph0-9" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3453"
+       y="40.661999"
+       x="263.33109"
+       xlink:href="#glyph0-10" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3455"
+       y="40.661999"
+       x="269.55829"
+       xlink:href="#glyph0-11" />
+  </g>
+  <g
+     id="g3457"
+     style="fill:#000000;fill-opacity:1">
+    <use
+       height="100%"
+       width="100%"
+       id="use3459"
+       y="425.142"
+       x="348.82001"
+       xlink:href="#glyph0-12" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3461"
+       y="425.142"
+       x="364.9928"
+       xlink:href="#glyph0-13" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3463"
+       y="425.142"
+       x="369.96561"
+       xlink:href="#glyph0-14" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3465"
+       y="425.142"
+       x="376.19281"
+       xlink:href="#glyph0-6" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3467"
+       y="425.142"
+       x="387.39279"
+       xlink:href="#glyph0-7" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3469"
+       y="425.142"
+       x="393.62"
+       xlink:href="#glyph0-8" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3471"
+       y="425.142"
+       x="406.7016"
+       xlink:href="#glyph0-7" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3473"
+       y="425.142"
+       x="412.9288"
+       xlink:href="#glyph0-15" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3475"
+       y="425.142"
+       x="425.38321"
+       xlink:href="#glyph0-15" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3477"
+       y="425.142"
+       x="437.83759"
+       xlink:href="#glyph0-16" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3479"
+       y="425.142"
+       x="450.29199"
+       xlink:href="#glyph0-10" />
+    <use
+       height="100%"
+       width="100%"
+       id="use3481"
+       y="425.142"
+       x="456.5192"
+       xlink:href="#glyph0-11" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:23.46087265px;line-height:0.99999998%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="7.1359105"
+     y="451.34714"
+     id="text8357"
+     sodipodi:linespacing="0.99999998%"><tspan
+       sodipodi:role="line"
+       id="tspan8359"
+       x="7.1359105"
+       y="451.34714">$165,174</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:23.46087265px;line-height:0.99999998%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="231.59471"
+     y="550.43506"
+     id="text8357-3"
+     sodipodi:linespacing="0.99999998%"><tspan
+       sodipodi:role="line"
+       id="tspan8359-6"
+       x="231.59471"
+       y="550.43506">$402,834</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:23.46087265px;line-height:0.99999998%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="460.79169"
+     y="550.43506"
+     id="text8357-3-7"
+     sodipodi:linespacing="0.99999998%"><tspan
+       sodipodi:role="line"
+       id="tspan8359-6-5"
+       x="460.79169"
+       y="550.43506">$845,346</tspan></text>
 </svg>

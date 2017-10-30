@@ -34,7 +34,6 @@
 	regression trees</h4>
 	<font size="6">Alex Gavryushkin</font><br>
 	<font size="5">31 October 2017</font><br>
-	<font class="fragment" size="3" color="red">[like this]</font>
 </section>
 
 <section>
@@ -44,9 +43,6 @@
 	    <ul><a href="http://alex.gavruskin.com/teaching/">http://alex.gavruskin.com/teaching/</a></ul>
 	  <li> You can follow this lecture:
 	    <ul><a href="http://alex.gavruskin.com/teaching/STAT203_Lecture5">http://alex.gavruskin.com/teaching/STAT203_Lecture5</a></ul>
-	  <li> Lecture notes with embedded runnable code are<font color="red">*</font> at
-	    <ul><a href="http://alex.gavruskin.com/teaching/">http://alex.gavruskin.com/teaching/STAT203_Lecture_Notes</a></ul>
-	  <li> Technical slides are coming from below.
 	</ul>
 	<br>
 	<br>
@@ -55,37 +51,28 @@
 	Some of the figures in this presentation are taken from "An Introduction to Statistical Learning, with applications in R" (Springer, 2013) with permission from the authors: G. James, D. Witten, T. Hastie, and R. Tibshirani.
 	</font>
 	</p>
-	<br>
-	<br>
-	<font color="red" size="3">[*Not quite. The lecture notes will be posted only before the actual lecture.]</font>
 </section>
 
-<section>
-	<h3>Motivation slide</h3>
-	"[These days] Many scientists are very capable of analysing their data by themselves." &mdash; <br>
-	Nicolai Meinshausen, Professor of Statistics, ETH Zurich<br>
-	<img class="stretch" data-src="images/Meinshausen.jpg"><br>
-	<font size="2">Image: ETH Zurich.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.ethz.ch/en/news-and-events/eth-news/news/2017/10/interview-nicolai-meinshausen.html"><u>Complete interview "Our Master's programme is in great demand".</u></a></font><br>
-	
-	<font color="red" size="3">[I use these to share recent news in the area and to provide further motivation for the students to study the subject.]</font>
-</section>
-
-<section>
-	<h3>Data <font color="grey">Hitters</font></h3>
+<section data-transition="slide-in fade-out">
+	<h3>
+	  <img width="10%" data-src="images/baseball_player.svg">
+	  Data <font color="grey">Hitters</font>
+	</h3>
 	<img data-src="images/data_hitters.png">
 	<h3>Problem</h3>
 	Can we predict player's salary?<br>
 	What drives player's salary the most?
-	<br>
-	<br>
-	<br>
-	<font color="red" size="3">[In the actual lecture some other data set will be used, more relevant to the students.]</font>
 </section>
 
-<section>
-	<h3>Idea: segmenting the predictor space</h3>
-	<br><br>
-	<img data-src="images/segmenting.svg">
+<section data-transition="fade-in slide-out">
+	<h3>
+	  <img width="10%" data-src="images/baseball_player.svg">
+	  Data <font color="grey">Hitters</font>
+	</h3>
+	<img data-src="images/data_hitters_highlighted.svg">
+	<h3>Problem</h3>
+	Can we predict player's salary?<br>
+	What drives player's salary the most?
 </section>
 
 <section>
@@ -94,7 +81,7 @@
 
 <section>
 	<img data-src="images/hitters_regression_region_and_tree.svg"><br>
-	<font size="5"> Can be seen as fitting a piecewise-constant model.
+	<font class="fragment" size="5"> Can be seen as fitting a piecewise-constant model.
 	The goal is to minimise RSS<br><br>
 	$$\sum_{i \in R_1}(y_i - \hat y _{R_1})^2 + \sum_{i \in R_2}(y_i - \hat y _{R_2})^2 + \sum_{i \in R_3}(y_i - \hat y _{R_3})^2$$</font>
 </section>
@@ -105,17 +92,10 @@
 	  <li> Predict NZ house prices
 	  <li> Predict cancer patients' life length expectancy
 	</ul>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<font color="red" size="3">[Also shows the wide range of relevant applications.]</font>
 </section>
 
 <section>
+	<h4>How do we know which predictors to choose?
 	<img width="30%" data-src="images/hitters_regression_tree.svg">
 	<img data-src="images/data_hitters.png">
 </section>
@@ -133,6 +113,7 @@
 	  ?
 	</p>
   </section>
+
   <section align="left">
 	<h3>Details</h3>
 	For any $j$ and $s$, we define the pair of half-planes<br><br>
@@ -175,12 +156,11 @@
 
   <section>
 	<h3>Why not fitting all trees?</h3>
+	<aside class="notes">
 	<ul>
 	  <li> The number of full trees, as well as the number of subtrees of a full tree is bounded from below by $2^n$.
-	  <li class="fragment" data-fragment-index="1"> $2^n$ is already way too many.
-	    Assuming it takes one second to fit a tree:
 	</ul>
-	<table class="fragment" data-fragment-index="1">
+	<table>
 	  <tr>
 	    <td>
 	      17 minutes
@@ -222,6 +202,7 @@
 	    </td>
 	  </tr>
 	</table>
+	</aside>
   </section>
 
   <section>
@@ -239,18 +220,25 @@
 </section>
 
 <section>
+  <section>
+	<h3>This week's tutorials</h3>
+	<ul>
+	  <li> Predict the 2017 general election preferences
+	  <li> Predict tumour recurrence in patients treated for melanoma
+	</ul>
+  </section>
+  <section>
 	<h3>Data <font color="grey">Heart</font></h3>
 	<img width="65%" data-src="images/data_heart.png">
 	<h3>Problem</h3>
 	Can we predict whether the patient has heart disease?
-</section>
+  </section>
 
-<section data-transition="slide-in fade-out">
+  <section data-transition="slide-in fade-out">
 	<img class="stretch" data-src="images/heart_trees_validation.svg">
-</section>
+  </section>
 
-<section data-transition="fade-in slide-out">
-  <section>
+  <section data-transition="fade-in slide-out">
 	<img class="stretch" data-src="images/heart_trees_validation_highlight.svg">
   </section>
 
@@ -272,14 +260,6 @@
 	  </tr>
 	</table>
   </section>
-</section>
-
-<section>
-	<h3>This week's tutorials</h3>
-	<ul>
-	  <li> Predict the 2017 general election preferences
-	  <li> Predict tumour recurrence in patients treated for melanoma
-	</ul>
 </section>
 
 <section data-transition="fade-in" data-background-image="../talks/images/ethKuppel.svg">
