@@ -12,7 +12,7 @@ permalink: /publications/
 
 - Inferring genetic interactions from comparative fitness data.
   With Kristina Crona, Devin Greene, and Niko Beerenwinkel.
-  <i>eLife,</i> under revision, DOI: [10.1101/137372](https://doi.org/10.1101/137372), 2017
+  <i>eLife,</i> to appear. DOI: [10.1101/137372](https://doi.org/10.1101/137372), 2017
 
 - The combinatorics of discrete time-trees: theory and open problems.
   With Chris Whidden and Erick Matsen.
