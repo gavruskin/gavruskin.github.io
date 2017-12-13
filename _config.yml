@@ -18,9 +18,8 @@ timezone: Europe/Zurich
 title: Alex Gavryushkin's Homepage
 email: alex@gavruskin.com
 description: > # this means to ignore newlines until "baseurl:"
-  Alex Gavryushkin is a research fellow with Niko Beerenwinkel,
-  Department of Biosystems Science and Engineering, ETH Zürich.
-  Alex is working in mathematical and computational biology, phylogenomics, and genetic interactions.
+  Alex Gavryushkin is Senior Lecturer and Rutherford Discovery Fellow at Department of Computer Science, University of Otago (starting in February 2018).
+  Alex's lab is working in mathematical and computational biology, phylogenomics, and genetic interactions.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://alex.gavruskin.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: gavruskin
