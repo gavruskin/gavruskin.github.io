@@ -4,7 +4,7 @@ title: Teaching
 permalink: /teaching/
 ---
 
-The schedule of my classes and office hours is on my [calendar](/upcoming-meetings/).
+The schedule of my classes and office hours is on my [calendar](http://lab.gavruskin.com/alex/).
 
 Our recent teaching materials are on my [lab's website](http://lab.gavruskin.com/teaching/).
 
