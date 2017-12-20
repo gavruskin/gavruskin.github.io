@@ -4,7 +4,11 @@ title: Teaching
 permalink: /teaching/
 ---
 
-The schedule of my classes and office hours is on my [calendar](/calendar/).
+The schedule of my classes and office hours is on my [calendar](/upcoming-meetings/).
+
+Our recent teaching materials are on my [lab's website](http://lab.gavruskin.com/teaching/).
+
+My teaching materials from 2012-2013 are below:
 
 <div>In 2013 semester 2, I was teaching and coordinating <b>Finite Mathematics</b>&nbsp;715205. Here are my slides:</div>
 <div><br>
