@@ -5,6 +5,10 @@ permalink: /talks/
 ---
 
 
+Our recent talks are on my [lab's website](http://lab.gavruskin.com/talks/).
+
+My talks from 2005-2017 are below:
+
 ### Seminar and short conference talks
 
 - [June 2017](http://www.lirmm.fr/mceb2017/), Porquerolles Island, France. Contributed talk [Genetic interactions from competition experiments](2017_MCEB)
