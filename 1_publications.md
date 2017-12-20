@@ -6,6 +6,10 @@ permalink: /publications/
 
 [My profile on Google Scholar](https://scholar.google.com/citations?hl=en&user=coK1R-kAAAAJ&view_op=list_works&sortby=pubdate)
 
+Our recent publications are on my [lab's website](http://lab.gavruskin.com/publications/).
+
+My publications from 2006-2017 are below:
+
 - High-dimensional microbiome interactions shape host fitness.
   With Alison Gould, Vivian Zhang, Lisa Lamberti, Eric Jones, Benjamin Obadia, Jean Carlson, Niko Beerenwinkel, and Will Ludington.
   *bioRxiv,* DOI: [10.1101/232959](https://doi.org/10.1101/232959), 2017
