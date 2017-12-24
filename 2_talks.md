@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Talks & Slides
+menu: true
 permalink: /talks/
+title: Talks & Slides
 ---
 
 

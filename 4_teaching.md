@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Teaching
+menu: true
 permalink: /teaching/
+title: Teaching
 ---
 
 The schedule of my classes and office hours is on my [calendar](http://lab.gavruskin.com/alex/).

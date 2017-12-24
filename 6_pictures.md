@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Pictures
+menu: true
 permalink: /pictures/
+title: Pictures
 ---
 
 ### 18 March 2015:

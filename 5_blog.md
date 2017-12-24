@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Miniblog
+menu: true
 permalink: /blog/
+title: Miniblog
 ---
 
 ### Citations that I found inspiring at different points in my life.

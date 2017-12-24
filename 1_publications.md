@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Publications
+menu: true
 permalink: /publications/
+title: Publications
 ---
 
 [My profile on Google Scholar](https://scholar.google.com/citations?hl=en&user=coK1R-kAAAAJ&view_op=list_works&sortby=pubdate)

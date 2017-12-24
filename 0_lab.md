@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Lab
+menu: true
 permalink: /lab/
+title: Lab
 ---
 
 ## Biological Data Science Lab @Otago
