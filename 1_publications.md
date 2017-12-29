@@ -5,7 +5,7 @@ permalink: /publications/
 title: Publications
 ---
 
-[My profile on Google Scholar](https://scholar.google.com/citations?hl=en&user=coK1R-kAAAAJ&view_op=list_works&sortby=pubdate)
+[My ORCID profile](https://orcid.org/0000-0001-6299-8249)
 
 Our recent publications are on my [lab's website](http://lab.gavruskin.com/publications/).
 
